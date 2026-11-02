@@ -1,0 +1,11 @@
+{
+  "version": 6,
+  "status": "succeeded",
+  "url": "https://rob-run-loot-atlas.poznergpt.chatgpt.site",
+  "project_id": "appgprj_6ae6d56d239481918147cc9c7ec07bb2",
+  "commit_sha": "27234abc25a6e654776ed097e710c169c6da5968",
+  "version_id": "appgprj_6ae6d56d239481918147cc9c7ec07bb2~appgver_27a5bce77a3c819186337a04feb74a19",
+  "deployment_id": "appgdep_6ae702688e648191b58109665e674bd4",
+  "updated_at": "2026-11-01T09:12:24Z",
+  "audience": "owner-private"
+}

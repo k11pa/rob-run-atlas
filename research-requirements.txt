@@ -1,0 +1,6 @@
+UnityPy
+numpy
+Pillow
+pefile
+capstone
+dnfile

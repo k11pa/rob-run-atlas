@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/assets/
+work/
+outputs/
+*.log
+public-config.json
+GameAssembly.dll
+global-metadata.dat
