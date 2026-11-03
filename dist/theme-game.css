@@ -45,10 +45,10 @@ h1,h2,.drawer-header h2,.modal-heading h2,.building-header h2{font-weight:900;le
 /* ---- inputs ---- */
 .search-box,select,.icon-button,.catalog-search,.recipe-search{background:#0f0f0e;border:1px solid #2f2e2c}
 .search-box{height:44px}
-.search-box:focus-within,select:focus,select:hover{border-color:var(--accent)}
+
 select{font-family:var(--font);font-weight:600;font-size:13px;color:#e6e4df}
 select option{background:#1b1b1a}
-.icon-button:hover{border-color:var(--accent);color:var(--accent)}
+.icon-button:hover{color:var(--accent)}
 .search-box kbd{border-color:#3d3c39;color:#8d8b87}
 
 /* ---- buttons: skewed slabs ---- */
@@ -130,3 +130,7 @@ select option{background:#1b1b1a}
 .removed,#runControls,#catalogButton,#pointFilters,.map-modes,#highlightChip,
 [data-acquisition-point],.point-row,.acquisition-locations,.route-map-button,[data-item-map]{display:none!important}
 .dependency-locations{display:none!important}
+/* v3.0: no search, no focus outlines */
+.search-box,#results,#emptyState{display:none!important}
+*:focus,*:focus-visible{outline:none!important;box-shadow:none}
+select:focus,select:hover,.icon-button:focus{border-color:#2f2e2c!important}
