@@ -1,0 +1,1225 @@
+{
+  "build": "26377677",
+  "game_assembly_sha256": "eadb6896d996a41551325d4664ffe07e543629ff7cbbcbab3b8e76a4772f5ea8",
+  "global_metadata_sha256": "ac3136bab7cc873711027e174c6c9383bf919fdf9c7cfb801c84d4cd5ca9b16d",
+  "asset_scan": {
+    "bundles": [
+      "979ebaa5a17ed2834a47fa1373510580_monoscripts.bundle",
+      "979ebaa5a17ed2834a47fa1373510580_unitybuiltinassets.bundle",
+      "character-beards_assets_all.bundle",
+      "character-fhair-bob_assets_all.bundle",
+      "character-fhair-mohawk_assets_all.bundle",
+      "character-fhair-pixie_long_assets_all.bundle",
+      "character-fhair-slick_back_assets_all.bundle",
+      "character-fhair-slick_back_bun_assets_all.bundle",
+      "character-fhair-wolfcut_short_assets_all.bundle",
+      "character-hair-balding_comb_over_assets_all.bundle",
+      "character-hair-classic_slick_back_assets_all.bundle",
+      "character-hair-mohawk_assets_all.bundle",
+      "character-hair-mop_top_assets_all.bundle",
+      "character-hair-slicked_back_middle_part_assets_all.bundle",
+      "character-hair-undercut_slick_back_assets_all.bundle",
+      "character-hair-undercut_top_knot_assets_all.bundle",
+      "character-marks_assets_all.bundle",
+      "character-mask-10_assets_all.bundle",
+      "character-mask-11_assets_all.bundle",
+      "character-mask-12_assets_all.bundle",
+      "character-mask-13_assets_all.bundle",
+      "character-mask-14_assets_all.bundle",
+      "character-mask-15_assets_all.bundle",
+      "character-mask-16_assets_all.bundle",
+      "character-mask-17_assets_all.bundle",
+      "character-mask-18_assets_all.bundle",
+      "character-mask-19_assets_all.bundle",
+      "character-mask-1_assets_all.bundle",
+      "character-mask-20_assets_all.bundle",
+      "character-mask-21_assets_all.bundle",
+      "character-mask-22_assets_all.bundle",
+      "character-mask-23_assets_all.bundle",
+      "character-mask-24_assets_all.bundle",
+      "character-mask-25_assets_all.bundle",
+      "character-mask-26_assets_all.bundle",
+      "character-mask-27_assets_all.bundle",
+      "character-mask-28_assets_all.bundle",
+      "character-mask-29_assets_all.bundle",
+      "character-mask-2_assets_all.bundle",
+      "character-mask-31_assets_all.bundle",
+      "character-mask-32_assets_all.bundle",
+      "character-mask-33_assets_all.bundle",
+      "character-mask-34_assets_all.bundle",
+      "character-mask-36_assets_all.bundle",
+      "character-mask-37_assets_all.bundle",
+      "character-mask-38_assets_all.bundle",
+      "character-mask-39_assets_all.bundle",
+      "character-mask-3_assets_all.bundle",
+      "character-mask-41_assets_all.bundle",
+      "character-mask-42_assets_all.bundle",
+      "character-mask-43_assets_all.bundle",
+      "character-mask-44_assets_all.bundle",
+      "character-mask-45_assets_all.bundle",
+      "character-mask-4_assets_all.bundle",
+      "character-mask-5_assets_all.bundle",
+      "character-mask-6_assets_all.bundle",
+      "character-mask-7_assets_all.bundle",
+      "character-mask-9_assets_all.bundle",
+      "character-separeted_assets_assets_content_character__sharedsources.bundle",
+      "character-separeted_assets_assets_content_character_man_materials_tattoo.bundle",
+      "character-separeted_assets_assets_content_character_woman_materials_makeup.bundle",
+      "character-separeted_assets_assets_content_character_woman_materials_tattoo.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_bag_15_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_bag_15_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_bag_1_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_bag_21_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_bag_7_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_copbag.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_12_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_16_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_16_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_16_type_1_paint_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_18_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_18_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_18_type_1_paint_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_18_type_1_paint_4.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_28_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_2_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_2_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_2_type_1_paint_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_2_type_1_paint_4.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_30_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_30_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_31_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_31_type_2_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_33_type_2_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_42_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_42_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_42_type_1_paint_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_body_5_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_prisonbody_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterbodiesviewdescription_prisonbody_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_1_manpolicebody.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_1_womanpolicebody.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_2_manpolicebody.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_2_manpolicemask.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_2_womanpolicebody.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_2_womanpolicemask.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_3_manpolicebody.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_3_manpolicemask.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_3_womanpolicebody.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_3_womanpolicemask.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_16_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_16_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_16_type_1_paint_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_18_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_18_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_18_type_1_paint_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_18_type_1_paint_4.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_28_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_2_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_2_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_2_type_1_paint_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_2_type_1_paint_4.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_30_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_30_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_31_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_31_type_2_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_33_type_2_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_5_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_prisonbody_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_prisonbody_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfheadsviewdescription_f_head_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfheadsviewdescription_f_head_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfheadsviewdescription_f_head_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfheadsviewdescription_f_head_4.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterfheadsviewdescription_f_head_5.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterftattooviewdescriptions_f_tattoo_body.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterheadsviewdescription_head_1.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterheadsviewdescription_head_2.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterheadsviewdescription_head_3.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterheadsviewdescription_head_4.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterheadsviewdescription_head_6.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterheadsviewdescription_head_7.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterheadsviewdescription_head_8.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characternakedviewdescription_f_naked.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characternakedviewdescription_m_naked.asset.bundle",
+      "character-separeted_assets_assets_scriptableobjects_skincenter_customizercontent_characterprisonerviewdescription_f_prisonbody_1.asset.bundle",
+      "character-separeted_assets_customizercontent_characterkeychainsviewdescription.bundle",
+      "character-separeted_assets_misc_facemasks__sharedsources.bundle",
+      "character-separeted_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_bag_32_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_bag_7_type_1_paint_2.asset.bundle",
+      "character-separeted_assets_scriptableobjects_skincenter_customizercontent_characterbagsviewdescription_bag_7_type_1_paint_3.asset.bundle",
+      "character-separeted_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_0_manpolicebody.asset.bundle",
+      "character-separeted_assets_scriptableobjects_skincenter_customizercontent_charactercopbodiesviewdescription_0_womanpolicebody.asset.bundle",
+      "character-separeted_assets_scriptableobjects_skincenter_customizercontent_characterfbodiesviewdescription_f_body_42_type_1_paint_1.asset.bundle",
+      "character-separeted_assets_scriptableobjects_skincenter_customizercontent_characterheadsviewdescription_head_5.asset.bundle",
+      "character_assets_.bundle",
+      "character_assets_part3.bundle",
+      "environment-interactive_assets_all.bundle",
+      "environment-materiallibrary-legacy_assets_all.bundle",
+      "environment-props-legacy_assets_all.bundle",
+      "environment_assets_all.bundle",
+      "equipement_assets_grenades.bundle",
+      "equipement_assets_playerhammer_01.bundle",
+      "equipement_assets_usableitem.bundle",
+      "equipement_assets_vfx.bundle",
+      "equipement_assets_vfx_cargo_exchange_effect.prefab.bundle",
+      "inbuild_assets_all.bundle",
+      "localization-assets-shared_assets_all.bundle",
+      "localization-locales_assets_all.bundle",
+      "localization-string-tables-english(unitedstates)(en-us)_assets_all.bundle",
+      "localization-string-tables-french(fr)_assets_all.bundle",
+      "localization-string-tables-german(de)_assets_all.bundle",
+      "localization-string-tables-portuguese(pt)_assets_all.bundle",
+      "localization-string-tables-russian(russia)(ru-ru)_assets_all.bundle",
+      "localization-string-tables-spanish(es)_assets_all.bundle",
+      "location-city-data_assets_all.bundle",
+      "location-city-standalone_scenes_city_standalone.unity.bundle",
+      "location-hub-data_assets_all.bundle",
+      "location-hub_standalone_scenes_all.bundle",
+      "location-prison-data_assets_all.bundle",
+      "location-prison-standalone_scenes_all.bundle",
+      "location-sectorcenter-data_assets_all.bundle",
+      "location-sectorcenter-standalone_scenes_all.bundle",
+      "location-settlement-data_assets_all.bundle",
+      "location-settlement-standalone_scenes_settlement_standalone.bundle",
+      "location-settlement-standalone_scenes_settlementadditive_standalone.bundle",
+      "location-settlement2-data_assets_all.bundle",
+      "location-settlement2-standalone_scenes_all.bundle",
+      "npc_assets_all.bundle",
+      "scriptableobjects_assets_all.bundle",
+      "shaders_assets_all.bundle",
+      "shared-characters_assets_all.bundle",
+      "shared-environment-city_assets_all.bundle",
+      "shared-environment-common_assets_all.bundle",
+      "shared-environment-desert_assets_all.bundle",
+      "shared-environment-plot_assets_all.bundle",
+      "shared-environment-props_assets_all.bundle",
+      "shared-global_assets_all.bundle",
+      "space-battle_assets_all.bundle",
+      "space-battle_scenes_all.bundle",
+      "space-global_assets_all.bundle",
+      "space-global_scenes_all.bundle",
+      "space-mainmenu_assets_all.bundle",
+      "space-mainmenu_scenes_all.bundle",
+      "space-realm_assets_all.bundle",
+      "space-realm_scenes_all.bundle",
+      "tattoo_assets_assets_content_character_man_materials_tattoo_m_tattoo_set1_anim.png.bundle",
+      "tattoo_assets_assets_content_character_woman_materials_tattoo_f_tattoo_set1_anim.png.bundle",
+      "tattoo_assets_timelinescontent.bundle",
+      "tattoo_scenes_tattoounlock.bundle",
+      "tutorial_assets_all.bundle",
+      "ui-skincenter-icons_assets_bag.bundle",
+      "ui-skincenter-icons_assets_beard.bundle",
+      "ui-skincenter-icons_assets_body.bundle",
+      "ui-skincenter-icons_assets_emotions.bundle",
+      "ui-skincenter-icons_assets_fbag.bundle",
+      "ui-skincenter-icons_assets_fbody.bundle",
+      "ui-skincenter-icons_assets_fhair.bundle",
+      "ui-skincenter-icons_assets_fhead.bundle",
+      "ui-skincenter-icons_assets_fmakeup.bundle",
+      "ui-skincenter-icons_assets_fmark.bundle",
+      "ui-skincenter-icons_assets_fmask.bundle",
+      "ui-skincenter-icons_assets_hair.bundle",
+      "ui-skincenter-icons_assets_head.bundle",
+      "ui-skincenter-icons_assets_keychain.bundle",
+      "ui-skincenter-icons_assets_mark.bundle",
+      "ui-skincenter-icons_assets_mask.bundle",
+      "ui-skincenter-icons_assets_tattoo.bundle",
+      "ui-skincenter-icons_assets_vehicles.bundle",
+      "ui-spriteatlas-4k_assets_assets_content_ui_sprites_4k_all__fullspriteatlas_4k.spriteatlasv2.bundle",
+      "ui-spriteatlas-4k_assets_assets_content_ui_sprites_4k_all__fullspriteatlas_hd.spriteatlasv2.bundle",
+      "ui-spriteatlas-4k_assets_assets_content_ui_sprites_4k_all__fullspriteatlas_qhd.spriteatlasv2.bundle",
+      "ui-spriteatlas_assets__fullspriteatlas.bundle",
+      "ui-spriteatlas_assets_assets_content_ui_sprites_buildings.bundle",
+      "ui-spriteatlas_assets_bagsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_bagsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_bagsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_beardsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_beardsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_beardsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_bigimages.bundle",
+      "ui-spriteatlas_assets_bodiesspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_bodiesspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_bodiesspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_carsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_carsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_carsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_emotionsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_emotionsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_emotionsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_fbagsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_fbagsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_fbagsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_fbodiesspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_fbodiesspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_fbodiesspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_fhairsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_fhairsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_fhairsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_fheadsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_fheadsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_fheadsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_fmakeupsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_fmakeupsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_fmakeupsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_fmarksspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_fmarksspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_fmarksspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_fmasksspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_fmasksspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_fmasksspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_hairsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_hairsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_hairsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_headsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_headsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_headsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_keychainsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_keychainsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_keychainsspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_marksspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_marksspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_marksspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_masksspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_masksspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_masksspriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_planningboardatlas_4k.bundle",
+      "ui-spriteatlas_assets_planningboardatlas_hd.bundle",
+      "ui-spriteatlas_assets_planningboardatlas_qhd.bundle",
+      "ui-spriteatlas_assets_tattoospriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_tattoospriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_tattoospriteatlas_qhd.bundle",
+      "ui-spriteatlas_assets_weaponsspriteatlas_4k.bundle",
+      "ui-spriteatlas_assets_weaponsspriteatlas_hd.bundle",
+      "ui-spriteatlas_assets_weaponsspriteatlas_qhd.bundle",
+      "vehicle-car-buletti_soltempra_assets_all.bundle",
+      "vehicle-car-fukurou_spark_assets_all.bundle",
+      "vehicle-car-fukurou_tensa_assets_all.bundle",
+      "vehicle-car-longhorn_guard_assets_all.bundle",
+      "vehicle-car-longhorn_titan_assets_all.bundle",
+      "vehicle-car-longhorn_van_assets_all.bundle",
+      "vehicle-car-longhorn_wild_assets_all.bundle",
+      "vehicle-car-royal_e_assets_all.bundle",
+      "vehicle-car-royal_j_assets_all.bundle",
+      "vehicle-cars_assets_all.bundle",
+      "vehicles-helicopters_assets_all.bundle",
+      "weapon-apscalar_assets_all.bundle",
+      "weapon-cb45_assets_all.bundle",
+      "weapon-dp9_assets_all.bundle",
+      "weapon-drm14_assets_all.bundle",
+      "weapon-harris500_assets_all.bundle",
+      "weapon-jp7_assets_all.bundle",
+      "weapon-kl545_assets_all.bundle",
+      "weapon-lbr44_assets_all.bundle",
+      "weapon-lmg_assets_all.bundle",
+      "weapon-mc10_assets_all.bundle",
+      "weapon-ordr12_assets_all.bundle",
+      "weapon-pdw90_assets_all.bundle",
+      "weapon-rc556_assets_all.bundle",
+      "weapon-srreaper_assets_all.bundle",
+      "weapon-starh_assets_all.bundle",
+      "weapon-tag12k_assets_all.bundle",
+      "weapon-vulture50_assets_all.bundle",
+      "weapons_assets_assets_content_equipment_weapons__modules.bundle",
+      "weapons_assets_assets_content_equipment_weapons__sharedsources.bundle"
+    ],
+    "text_assets": [
+      {
+        "bundle": "inbuild_assets_all.bundle",
+        "name": "LineBreaking Leading Characters",
+        "bytes": 95,
+        "sha256": "62d3f4d5f64aaf885692d2d13a8313f6918e6e4c5aeb3990a43f614652bfd89c"
+      },
+      {
+        "bundle": "inbuild_assets_all.bundle",
+        "name": "LineBreaking Following Characters",
+        "bytes": 269,
+        "sha256": "3a73e5ffe2510756dd3c2e982fdc1218b4be82c6e21abde88070d6860e1bc8e6"
+      },
+      {
+        "bundle": "location-city-data_assets_all.bundle",
+        "name": "City",
+        "bytes": 18547168,
+        "sha256": "d937635a6bfda30a4465f257701abdd13b227bd72bff004b20410ffeba3596d2"
+      },
+      {
+        "bundle": "location-city-data_assets_all.bundle",
+        "name": "City",
+        "bytes": 5,
+        "sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4"
+      },
+      {
+        "bundle": "location-hub-data_assets_all.bundle",
+        "name": "Hub",
+        "bytes": 11795626,
+        "sha256": "7cb131c6ba3b614aa2d5baa3856e9375d29df726729a1cdcfb3d98aca4bdc1d5"
+      },
+      {
+        "bundle": "location-hub-data_assets_all.bundle",
+        "name": "Hub",
+        "bytes": 5,
+        "sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4"
+      },
+      {
+        "bundle": "location-prison-data_assets_all.bundle",
+        "name": "Prison",
+        "bytes": 5,
+        "sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4"
+      },
+      {
+        "bundle": "location-prison-data_assets_all.bundle",
+        "name": "Prison",
+        "bytes": 2242978,
+        "sha256": "2889f2b3dac72c66186f9fbc0fd5e39114e4ed35b6b859e8589173ad990a889e"
+      },
+      {
+        "bundle": "location-sectorcenter-data_assets_all.bundle",
+        "name": "SectorCenter",
+        "bytes": 5,
+        "sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4"
+      },
+      {
+        "bundle": "location-sectorcenter-data_assets_all.bundle",
+        "name": "SectorCenter",
+        "bytes": 18776286,
+        "sha256": "86cb5c366b0dd41a4edb2da2036cda710ba799d0a7dbd7899b62219904456123"
+      },
+      {
+        "bundle": "location-settlement-data_assets_all.bundle",
+        "name": "Settlement",
+        "bytes": 5,
+        "sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4"
+      },
+      {
+        "bundle": "location-settlement-data_assets_all.bundle",
+        "name": "Settlement",
+        "bytes": 15429998,
+        "sha256": "1ae9bf8d19a93a0167036780c70a72ba8b0508d57fb4d593c48306678d95f708"
+      },
+      {
+        "bundle": "location-settlement2-data_assets_all.bundle",
+        "name": "Settlement2",
+        "bytes": 15942862,
+        "sha256": "e749d1d03a98c8eca26a66baebcf9b47830793cb87365b6511492f0be194c412"
+      },
+      {
+        "bundle": "location-settlement2-data_assets_all.bundle",
+        "name": "Settlement2",
+        "bytes": 5,
+        "sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4"
+      },
+      {
+        "bundle": "space-battle_assets_all.bundle",
+        "name": "Movement",
+        "bytes": 701170,
+        "sha256": "6a3092092285f67535f2361c73c3cd83f78884e844e7c8589de4e9f8a27eb097"
+      },
+      {
+        "bundle": "space-battle_assets_all.bundle",
+        "name": "Emotions",
+        "bytes": 2189076,
+        "sha256": "c02d886ab46dd3342057435ebb611983620b9d64051eb21ff8f42f50d05eb2dd"
+      }
+    ],
+    "errors": []
+  },
+  "component_scan": {
+    "bundles": 317,
+    "components": 141222,
+    "hits": [
+      {
+        "bundle": "location-hub_standalone_scenes_all.bundle",
+        "name": "",
+        "path_id": 28956,
+        "matches": [
+          {
+            "path": "$._idleAnimation._gazeFocusChance",
+            "value": 0.25
+          },
+          {
+            "path": "$._idleAnimation._gazeScanChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._gazeDownChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeAwayChance",
+            "value": 0.20000000298023224
+          },
+          {
+            "path": "$._idleAnimation._gazeInspectChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeScanReverseChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._blinkOnGazeShiftChance",
+            "value": 0.3499999940395355
+          },
+          {
+            "path": "$._idleAnimation._expressions[0].Chance",
+            "value": 0.800000011920929
+          },
+          {
+            "path": "$._idleAnimation._expressions[1].Chance",
+            "value": 0.4000000059604645
+          },
+          {
+            "path": "$._idleAnimation._expressions[2].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[3].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[4].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[5].Chance",
+            "value": 0.699999988079071
+          },
+          {
+            "path": "$._idleAnimation._expressions[6].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[7].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[8].Chance",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "bundle": "location-prison-standalone_scenes_all.bundle",
+        "name": "",
+        "path_id": 12069,
+        "matches": [
+          {
+            "path": "$._idleAnimation._gazeFocusChance",
+            "value": 0.25
+          },
+          {
+            "path": "$._idleAnimation._gazeScanChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._gazeDownChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeAwayChance",
+            "value": 0.20000000298023224
+          },
+          {
+            "path": "$._idleAnimation._gazeInspectChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeScanReverseChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._blinkOnGazeShiftChance",
+            "value": 0.3499999940395355
+          },
+          {
+            "path": "$._idleAnimation._expressions[0].Chance",
+            "value": 0.800000011920929
+          },
+          {
+            "path": "$._idleAnimation._expressions[1].Chance",
+            "value": 0.4000000059604645
+          },
+          {
+            "path": "$._idleAnimation._expressions[2].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[3].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[4].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[5].Chance",
+            "value": 0.699999988079071
+          },
+          {
+            "path": "$._idleAnimation._expressions[6].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[7].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[8].Chance",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "bundle": "npc_assets_all.bundle",
+        "name": "",
+        "path_id": -8462277856606554984,
+        "matches": [
+          {
+            "path": "$._idleAnimation._gazeFocusChance",
+            "value": 0.25
+          },
+          {
+            "path": "$._idleAnimation._gazeScanChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._gazeDownChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeAwayChance",
+            "value": 0.20000000298023224
+          },
+          {
+            "path": "$._idleAnimation._gazeInspectChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeScanReverseChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._blinkOnGazeShiftChance",
+            "value": 0.3499999940395355
+          },
+          {
+            "path": "$._idleAnimation._expressions[0].Chance",
+            "value": 0.800000011920929
+          },
+          {
+            "path": "$._idleAnimation._expressions[1].Chance",
+            "value": 0.4000000059604645
+          },
+          {
+            "path": "$._idleAnimation._expressions[2].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[3].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[4].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[5].Chance",
+            "value": 0.699999988079071
+          },
+          {
+            "path": "$._idleAnimation._expressions[6].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[7].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[8].Chance",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "bundle": "npc_assets_all.bundle",
+        "name": "",
+        "path_id": 770344319876940437,
+        "matches": [
+          {
+            "path": "$._idleAnimation._gazeFocusChance",
+            "value": 0.25
+          },
+          {
+            "path": "$._idleAnimation._gazeScanChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._gazeDownChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeAwayChance",
+            "value": 0.20000000298023224
+          },
+          {
+            "path": "$._idleAnimation._gazeInspectChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeScanReverseChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._blinkOnGazeShiftChance",
+            "value": 0.3499999940395355
+          },
+          {
+            "path": "$._idleAnimation._expressions[0].Chance",
+            "value": 0.800000011920929
+          },
+          {
+            "path": "$._idleAnimation._expressions[1].Chance",
+            "value": 0.4000000059604645
+          },
+          {
+            "path": "$._idleAnimation._expressions[2].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[3].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[4].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[5].Chance",
+            "value": 0.699999988079071
+          },
+          {
+            "path": "$._idleAnimation._expressions[6].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[7].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[8].Chance",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "bundle": "npc_assets_all.bundle",
+        "name": "",
+        "path_id": 1686192361304015543,
+        "matches": [
+          {
+            "path": "$._idleAnimation._gazeFocusChance",
+            "value": 0.25
+          },
+          {
+            "path": "$._idleAnimation._gazeScanChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._gazeDownChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeAwayChance",
+            "value": 0.20000000298023224
+          },
+          {
+            "path": "$._idleAnimation._gazeInspectChance",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$._idleAnimation._gazeScanReverseChance",
+            "value": 0.30000001192092896
+          },
+          {
+            "path": "$._idleAnimation._blinkOnGazeShiftChance",
+            "value": 0.3499999940395355
+          },
+          {
+            "path": "$._idleAnimation._expressions[0].Chance",
+            "value": 0.800000011920929
+          },
+          {
+            "path": "$._idleAnimation._expressions[1].Chance",
+            "value": 0.4000000059604645
+          },
+          {
+            "path": "$._idleAnimation._expressions[2].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[3].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[4].Chance",
+            "value": 1.0
+          },
+          {
+            "path": "$._idleAnimation._expressions[5].Chance",
+            "value": 0.699999988079071
+          },
+          {
+            "path": "$._idleAnimation._expressions[6].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[7].Chance",
+            "value": 0.6000000238418579
+          },
+          {
+            "path": "$._idleAnimation._expressions[8].Chance",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "bundle": "scriptableobjects_assets_all.bundle",
+        "name": "LocalizationKeys",
+        "path_id": 724341785011909337,
+        "matches": [
+          {
+            "path": "$.<InventoryKeys>k__BackingField.<TooltipMiniImprovementsAdditionalRewardChance>k__BackingField",
+            "value": {
+              "type": "dict",
+              "length": 5
+            }
+          }
+        ]
+      },
+      {
+        "bundle": "scriptableobjects_assets_all.bundle",
+        "name": "LocationBulletHitImpactParticleRecyclerDescription",
+        "path_id": 4210238049315058265,
+        "matches": [
+          {
+            "path": "$.<MinProbability>k__BackingField",
+            "value": 0.15000000596046448
+          },
+          {
+            "path": "$.<MaxProbability>k__BackingField",
+            "value": 0.8550000190734863
+          },
+          {
+            "path": "$.<MinProbabilityPlayer>k__BackingField",
+            "value": 0.3499999940395355
+          },
+          {
+            "path": "$.<MaxProbabilityPlayer>k__BackingField",
+            "value": 1.0
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "relevant_types": [
+    {
+      "assembly": "Models",
+      "name": "Models.References.WeightItems.WeightItem`1",
+      "fields": [
+        {
+          "name": "<Weight>k__BackingField",
+          "signature": "0608"
+        },
+        {
+          "name": "<ItemFunc>k__BackingField",
+          "signature": "06151229011300"
+        }
+      ],
+      "methods": [
+        ".ctor",
+        "get_Weight",
+        "get_ItemFunc",
+        "get_Item",
+        "New"
+      ]
+    },
+    {
+      "assembly": "Models",
+      "name": "Models.References.WeightItems.WeightItems`1",
+      "fields": [
+        {
+          "name": "_emptyProbability",
+          "signature": "060c"
+        },
+        {
+          "name": "<EmptyWeight>k__BackingField",
+          "signature": "0608"
+        },
+        {
+          "name": "<WeightTotal>k__BackingField",
+          "signature": "0608"
+        },
+        {
+          "name": "<Items>k__BackingField",
+          "signature": "0615120501151291a0011300"
+        }
+      ],
+      "methods": [
+        ".ctor",
+        "get_EmptyWeight",
+        "get_WeightTotal",
+        "get_Items",
+        "TryGetItem"
+      ]
+    },
+    {
+      "assembly": "Models",
+      "name": "Models.References.LootObject.RandomLootObjectDescription",
+      "fields": [
+        {
+          "name": "<EntityId>k__BackingField",
+          "signature": "0608"
+        },
+        {
+          "name": "<Position>k__BackingField",
+          "signature": "061145"
+        },
+        {
+          "name": "<Orientation>k__BackingField",
+          "signature": "061141"
+        },
+        {
+          "name": "<InteractPoint>k__BackingField",
+          "signature": "061145"
+        },
+        {
+          "name": "<InteractIgnoreStaticBodies>k__BackingField",
+          "signature": "0615120d0111a890"
+        },
+        {
+          "name": "<InteractDescription>k__BackingField",
+          "signature": "06129a2c"
+        },
+        {
+          "name": "<SecurityAlarmDescriptionFunc>k__BackingField",
+          "signature": "06151229011294b8"
+        },
+        {
+          "name": "<AvailableForUseRolesLazy>k__BackingField",
+          "signature": "06151280890115120d0112a4b0"
+        }
+      ],
+      "methods": [
+        ".ctor",
+        ".ctor",
+        "get_EntityId",
+        "get_Position",
+        "get_Orientation",
+        "get_InteractPoint",
+        "get_InteractIgnoreStaticBodies",
+        "get_InteractDescription",
+        "get_SecurityAlarmDescriptionFunc",
+        "get_SecurityAlarmDescription",
+        "get_AvailableForUseRolesLazy",
+        "get_AvailableForUseRoles",
+        "New"
+      ]
+    },
+    {
+      "assembly": "Models",
+      "name": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchRecipeDescription",
+      "fields": [],
+      "methods": [
+        ".ctor"
+      ]
+    },
+    {
+      "assembly": "Models",
+      "name": "Models.Models.LootObjectModel.Random.RandomLootObjectModel",
+      "fields": [
+        {
+          "name": "_item",
+          "signature": "061512809d011297fc"
+        },
+        {
+          "name": "<Description>k__BackingField",
+          "signature": "06129800"
+        }
+      ],
+      "methods": [
+        ".ctor",
+        "Reset",
+        "get_Description",
+        "get_IsEmpty",
+        "get_Item",
+        "SetItem"
+      ]
+    },
+    {
+      "assembly": "Models",
+      "name": "Models.Data.RandomLootObjectData",
+      "fields": [
+        {
+          "name": "<Item>k__BackingField",
+          "signature": "061512809d011297fc"
+        },
+        {
+          "name": "<IsTaken>k__BackingField",
+          "signature": "061512809d0102"
+        }
+      ],
+      "methods": [
+        ".ctor",
+        "get_Item",
+        "get_IsTaken"
+      ]
+    }
+  ],
+  "native_method_signatures": [
+    {
+      "file": "C:\\Users\\low_low\\Documents\\Codex\\2026-11-01\\new-chat\\work\\update_audit_26377677\\native\\IsilDump\\Models\\Models\\References\\LootObject\\RandomLootObjectDescription.txt",
+      "sha256": "1798b78ab47dd898c8a92dc8b9ded942487f57a68aba6527234c2f00c701b968",
+      "methods": [
+        {
+          "line": 3,
+          "signature": "System.Void .ctor(System.String id, System.Int32 index, System.Int32 entityId, System.Numerics.Vector3 position, System.Numerics.Quaternion orientation, System.Numerics.Vector3 interactPoint, System.Collections.Generic.HashSet`1<Models.Physics.PhysicsBodies.PhysicsBodyId> interactIgnoreStaticBodies, Models.References.Interact.InteractDescription interactDescription, System.Func`1<Models.References.SecurityAlarm.LocationSecurityAlarmDescription> securityAlarmDescriptionFunc)"
+        },
+        {
+          "line": 92,
+          "signature": "System.Void .ctor(System.String id, System.Int32 index, System.Int32 entityId, System.Numerics.Vector3 position, System.Numerics.Quaternion orientation, System.Numerics.Vector3 interactPoint, System.Collections.Generic.HashSet`1<Models.Physics.PhysicsBodies.PhysicsBodyId> interactIgnoreStaticBodies, Models.References.Interact.InteractDescription interactDescription, System.Func`1<Models.References.SecurityAlarm.LocationSecurityAlarmDescription> securityAlarmDescriptionFunc, System.Lazy`1<System.Collections.Generic.HashSet`1<Models.References.Battle.PlayerRoleDescription>> availableForUseRolesLazy)"
+        },
+        {
+          "line": 181,
+          "signature": "System.Int32 get_EntityId()"
+        },
+        {
+          "line": 191,
+          "signature": "System.Numerics.Vector3 get_Position()"
+        },
+        {
+          "line": 209,
+          "signature": "System.Numerics.Quaternion get_Orientation()"
+        },
+        {
+          "line": 223,
+          "signature": "System.Numerics.Vector3 get_InteractPoint()"
+        },
+        {
+          "line": 241,
+          "signature": "System.Collections.Generic.HashSet`1<Models.Physics.PhysicsBodies.PhysicsBodyId> get_InteractIgnoreStaticBodies()"
+        },
+        {
+          "line": 251,
+          "signature": "Models.References.Interact.InteractDescription get_InteractDescription()"
+        },
+        {
+          "line": 261,
+          "signature": "System.Func`1<Models.References.SecurityAlarm.LocationSecurityAlarmDescription> get_SecurityAlarmDescriptionFunc()"
+        },
+        {
+          "line": 271,
+          "signature": "Models.References.SecurityAlarm.LocationSecurityAlarmDescription get_SecurityAlarmDescription()"
+        },
+        {
+          "line": 297,
+          "signature": "System.Lazy`1<System.Collections.Generic.HashSet`1<Models.References.Battle.PlayerRoleDescription>> get_AvailableForUseRolesLazy()"
+        },
+        {
+          "line": 307,
+          "signature": "System.Collections.Generic.HashSet`1<Models.References.Battle.PlayerRoleDescription> get_AvailableForUseRoles()"
+        },
+        {
+          "line": 355,
+          "signature": "Models.References.LootObject.RandomLootObjectDescription New(System.String id, System.Int32 index, System.Int32 entityId, System.Numerics.Vector3 position, System.Numerics.Quaternion orientation, System.Numerics.Vector3 interactPoint, System.Collections.Generic.HashSet`1<Models.Physics.PhysicsBodies.PhysicsBodyId> interactIgnoreStaticBodies, Models.References.Interact.InteractDescription interactDescription, Models.References.SecurityAlarm.LocationSecurityAlarmDescription securityAlarmDescription, System.Collections.Generic.HashSet`1<Models.References.Battle.PlayerRoleDescription> availableForUseRoles = null)"
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\low_low\\Documents\\Codex\\2026-11-01\\new-chat\\work\\update_audit_26377677\\native\\IsilDump\\Models\\Models\\References\\Container\\ContainerDescription.txt",
+      "sha256": "6c8d25cb81d96107a20e544fd89cf2ddc3f7a109457ae181d40c3dbabfeb5fbe",
+      "methods": [
+        {
+          "line": 3,
+          "signature": "System.Void .ctor(System.String id, System.Int32 index, System.Func`1<Models.References.Container.ContainerTypeDescription> typeFunc, System.Func`1<Models.References.Container.ContainerDrillDescription> drillFunc, System.Int64 unlockTime, System.Lazy`1<System.Collections.Generic.IReadOnlyDictionary`2<Models.References.Inventory.CumulativeItemTypeDescription, System.Int32>> pointsByCumulativeItem)"
+        },
+        {
+          "line": 60,
+          "signature": "System.Func`1<Models.References.Container.ContainerTypeDescription> get_TypeFunc()"
+        },
+        {
+          "line": 70,
+          "signature": "Models.References.Container.ContainerTypeDescription get_Type()"
+        },
+        {
+          "line": 96,
+          "signature": "System.Func`1<Models.References.Container.ContainerDrillDescription> get_DrillFunc()"
+        },
+        {
+          "line": 106,
+          "signature": "Models.References.Container.ContainerDrillDescription get_Drill()"
+        },
+        {
+          "line": 132,
+          "signature": "System.Int64 get_UnlockTime()"
+        },
+        {
+          "line": 142,
+          "signature": "System.Lazy`1<System.Collections.Generic.IReadOnlyDictionary`2<Models.References.Inventory.CumulativeItemTypeDescription, System.Int32>> get_PointsByCumulativeItem()"
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\low_low\\Documents\\Codex\\2026-11-01\\new-chat\\work\\update_audit_26377677\\native\\IsilDump\\Models\\Models\\References\\Container\\LocationBuildingGroupLootDescription.txt",
+      "sha256": "d29f3054568baa9a40a6f8e972f6c3ec1d1748655c1925899405e235465e2cec",
+      "methods": [
+        {
+          "line": 3,
+          "signature": "System.Void .ctor(System.Int32 index, System.Lazy`1<System.Collections.Generic.IReadOnlyList`1<Models.References.Container.LocationContainerDescription>> containersLazy, System.Lazy`1<System.Collections.Generic.IReadOnlyList`1<Models.References.LootNode.LocationLootNodeDescription>> lootNodesLazy)"
+        },
+        {
+          "line": 62,
+          "signature": "System.Int32 get_Index()"
+        },
+        {
+          "line": 128,
+          "signature": "System.Lazy`1<System.Collections.Generic.IReadOnlyList`1<Models.References.Container.LocationContainerDescription>> get_ContainersLazy()"
+        },
+        {
+          "line": 138,
+          "signature": "System.Collections.Generic.IReadOnlyList`1<Models.References.Container.LocationContainerDescription> get_Containers()"
+        },
+        {
+          "line": 179,
+          "signature": "System.Lazy`1<System.Collections.Generic.IReadOnlyList`1<Models.References.LootNode.LocationLootNodeDescription>> get_LootNodesLazy()"
+        },
+        {
+          "line": 189,
+          "signature": "System.Collections.Generic.IReadOnlyList`1<Models.References.LootNode.LocationLootNodeDescription> get_LootNodes()"
+        },
+        {
+          "line": 230,
+          "signature": "Models.References.Container.LocationBuildingGroupLootDescription New(System.Int32 index, System.Collections.Generic.IReadOnlyList`1<Models.References.Container.LocationContainerDescription> containers, System.Collections.Generic.IReadOnlyList`1<Models.References.LootNode.LocationLootNodeDescription> lootNodes)"
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\low_low\\Documents\\Codex\\2026-11-01\\new-chat\\work\\update_audit_26377677\\native\\IsilDump\\Models\\Models\\References\\RobberAuthority\\RobberAuthorityLevelDescription.txt",
+      "sha256": "2f94d22554cb74142c894b00c21db0300e59933fe6faef045e1278e46f2892a0",
+      "methods": [
+        {
+          "line": 3,
+          "signature": "System.Void .ctor(System.String id, System.Int32 index, System.Func`1<Models.References.RobberAuthority.RobberAuthorityLevelDescription> nextLevelFunc, System.Int32 pointsRequired, System.Single exchangeCargoRevenueAdditiveModifier, System.Single sellLootRevenueAdditiveModifier)"
+        },
+        {
+          "line": 53,
+          "signature": "System.Func`1<Models.References.RobberAuthority.RobberAuthorityLevelDescription> get_NextLevelFunc()"
+        },
+        {
+          "line": 63,
+          "signature": "Models.References.RobberAuthority.RobberAuthorityLevelDescription get_NextLevel()"
+        },
+        {
+          "line": 89,
+          "signature": "System.Int32 get_PointsRequired()"
+        },
+        {
+          "line": 99,
+          "signature": "System.Single get_ExchangeCargoRevenueAdditiveModifier()"
+        },
+        {
+          "line": 109,
+          "signature": "System.Single get_SellLootRevenueAdditiveModifier()"
+        },
+        {
+          "line": 119,
+          "signature": "System.Boolean get_IsMaxLevel()"
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\low_low\\Documents\\Codex\\2026-11-01\\new-chat\\work\\update_audit_26377677\\native\\IsilDump\\Models\\Models\\References\\CargoProductionWorkbench\\CargoProductionWorkbenchRecipeDescription.txt",
+      "sha256": "d276e64cd82cc1653a397469fe3c59a8ede87879f9a7886f33c04b4514c30f06",
+      "methods": [
+        {
+          "line": 3,
+          "signature": "System.Void .ctor(System.String id, System.Int32 index)"
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\low_low\\Documents\\Codex\\2026-11-01\\new-chat\\work\\update_audit_26377677\\native\\IsilDump\\Models\\Models\\Models\\LootObjectModel\\Random\\RandomLootObjectModel.txt",
+      "sha256": "4f4da915422eefce62c173f8949f7183d37a3f4ac78f229b0265fb4b6f6ab8a4",
+      "methods": [
+        {
+          "line": 3,
+          "signature": "System.Void .ctor(Models.Data.RandomLootObjectData data, Models.References.LootObject.RandomLootObjectDescription description)"
+        },
+        {
+          "line": 74,
+          "signature": "System.Void Reset()"
+        },
+        {
+          "line": 143,
+          "signature": "Models.References.LootObject.RandomLootObjectDescription get_Description()"
+        },
+        {
+          "line": 153,
+          "signature": "System.Boolean get_IsEmpty()"
+        },
+        {
+          "line": 201,
+          "signature": "Models.References.LootObject.LootObjectItemDescription get_Item()"
+        },
+        {
+          "line": 244,
+          "signature": "System.Void SetItem(Models.References.LootObject.LootObjectItemDescription item)"
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\low_low\\Documents\\Codex\\2026-11-01\\new-chat\\work\\update_audit_26377677\\native\\IsilDump\\Models\\Models\\Data\\RandomLootObjectData.txt",
+      "sha256": "108f3d3d7d9b2cf5b4fc0f6d3770704067920e21be4e55c70a66fab32bfb829f",
+      "methods": [
+        {
+          "line": 3,
+          "signature": "System.Void .ctor()"
+        },
+        {
+          "line": 158,
+          "signature": "Framework.Replication.Data.Primitive.IPrimitiveData`1<Models.References.LootObject.LootObjectItemDescription> get_Item()"
+        },
+        {
+          "line": 168,
+          "signature": "Framework.Replication.Data.Primitive.IPrimitiveData`1<System.Boolean> get_IsTaken()"
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\low_low\\Documents\\Codex\\2026-11-01\\new-chat\\work\\update_audit_26377677\\native\\IsilDump\\Models\\Models\\References\\WeightItems\\WeightItems`1.txt",
+      "sha256": "a150c4294d1b530d71cf7d9a8249cea289dcb5ea250df28831292403167abd8b",
+      "methods": [
+        {
+          "line": 3,
+          "signature": "System.Void .ctor(System.Int32 emptyWeight, System.Collections.Generic.IReadOnlyList`1<Models.References.WeightItems.WeightItem`1<T>> items)"
+        },
+        {
+          "line": 317,
+          "signature": "System.Int32 get_EmptyWeight()"
+        },
+        {
+          "line": 327,
+          "signature": "System.Int32 get_WeightTotal()"
+        },
+        {
+          "line": 337,
+          "signature": "System.Collections.Generic.IReadOnlyList`1<Models.References.WeightItems.WeightItem`1<T>> get_Items()"
+        },
+        {
+          "line": 347,
+          "signature": "System.Boolean TryGetItem(System.Random random, out T item)"
+        }
+      ]
+    }
+  ],
+  "limits": "No new exact item acquisition source or drop probability was recovered. Keyword scans are not proof that all possible binary formats have been decoded."
+}

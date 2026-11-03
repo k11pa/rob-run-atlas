@@ -116,7 +116,7 @@ for r in item_rows:
 counts = collections.Counter(i["rarity"] for i in items)
 
 # ---------- points
-loot = group(q("""select a.point_id, i.game_id, a.quantity_min, a.quantity_max, e.steps_min, e.steps_max, k.native_name source from loot_point_entries e
+loot = group(q("""select a.point_id, i.game_id, a.quantity_min, a.quantity_max, a.drop_probability, e.steps_min, e.steps_max, k.native_name source from loot_point_entries e
   join acquisition_sources a on a.id=e.acquisition_source_id join items i on i.id=a.item_id join loot_reference_kinds k on k.id=e.reference_kind_id order by e.id"""), "point_id")
 required = group(q("""select o.loot_point_id point_id, i.game_id, r.requirement_source, o.access_kind, t.slug type from access_requirement_items x join items i on i.id=x.item_id
   join access_requirements r on r.id=x.requirement_id join access_objects o on o.id=r.access_object_id join access_object_types t on t.id=o.object_type_id order by x.id"""), "point_id")
@@ -133,7 +133,7 @@ for r in point_rows:
     p = {"id": r["entity_id"], "cat": r["cat"], "name": r["name_ru"], "building": r["building"], "region": r["region"], "px": num(r["map_px"]), "py": num(r["map_py"]),
          "height": round(float(r["world_y"]), 3 if r["cat"] in ("access", "actions") else 2), "group": r["group_key"], "sceneName": r["scene_object_name"], "sourcePath": r["source_path"],
          "x": num(r["world_x"]), "z": num(r["world_z"]), "buildingKey": r["building_key"],
-         "loot": [{"id": e["game_id"], "amountMin": e["quantity_min"], "amountMax": e["quantity_max"], **({"stepsMin": e["steps_min"], "stepsMax": e["steps_max"]} if e["steps_min"] is not None else {}), "source": e["source"]} for e in loot.get(pid, [])],
+         "loot": [{"id": e["game_id"], "amountMin": e["quantity_min"], "amountMax": e["quantity_max"], **({"probability": num(e["drop_probability"])} if e["drop_probability"] is not None else {}), **({"stepsMin": e["steps_min"], "stepsMax": e["steps_max"]} if e["steps_min"] is not None else {}), "source": e["source"]} for e in loot.get(pid, [])],
          "spawnProbability": num(r["spawn_probability"])}
     if r["status"]:
         p["lootStatus"] = r["status"]

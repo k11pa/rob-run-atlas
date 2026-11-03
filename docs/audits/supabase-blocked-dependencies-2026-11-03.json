@@ -1,0 +1,65 @@
+[
+  {
+    "cycles": [],
+    "game_id": "cargo_manifest_1_full",
+    "has_source": true,
+    "access_complete": false,
+    "unknown_dependencies": [
+      "cargo_manifest_1_cumulative"
+    ]
+  },
+  {
+    "cycles": [],
+    "game_id": "cargo_manifest_3_full",
+    "has_source": true,
+    "access_complete": false,
+    "unknown_dependencies": [
+      "cargo_manifest_3_cumulative"
+    ]
+  },
+  {
+    "cycles": [],
+    "game_id": "decoder_2",
+    "has_source": true,
+    "access_complete": false,
+    "unknown_dependencies": [
+      "decoder_1"
+    ]
+  },
+  {
+    "cycles": [],
+    "game_id": "evict_plot_1",
+    "has_source": true,
+    "access_complete": false,
+    "unknown_dependencies": [
+      "decoder_1"
+    ]
+  },
+  {
+    "cycles": [],
+    "game_id": "police_badge_2",
+    "has_source": true,
+    "access_complete": false,
+    "unknown_dependencies": [
+      "police_badge_1"
+    ]
+  },
+  {
+    "cycles": [],
+    "game_id": "police_badge_3",
+    "has_source": true,
+    "access_complete": false,
+    "unknown_dependencies": [
+      "police_badge_1"
+    ]
+  },
+  {
+    "cycles": [],
+    "game_id": "vip_key_4",
+    "has_source": true,
+    "access_complete": false,
+    "unknown_dependencies": [
+      "police_evidence_1"
+    ]
+  }
+]

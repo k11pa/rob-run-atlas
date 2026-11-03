@@ -1,0 +1,3193 @@
+{
+  "project": "ahdiwbwmimollasnhnya",
+  "retrievedAt": "2026-11-03T07:40:52.063Z",
+  "links": [
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Black Pirate",
+      "game_id": "alcohol_1",
+      "location": "Минимаркет · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Пойло для тех, кому нечего терять.",
+      "location_key": "MiniMarket_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Black Pirate",
+      "game_id": "alcohol_1",
+      "location": "Кафе Ocean Breeze",
+      "link_kind": "advertised_reward",
+      "description": "Пойло для тех, кому нечего терять.",
+      "location_key": "Cafe_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Black Pirate",
+      "game_id": "alcohol_1",
+      "location": "Минимаркет · Даунтаун · север",
+      "link_kind": "advertised_reward",
+      "description": "Пойло для тех, кому нечего терять.",
+      "location_key": "MiniMarket_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Black Pirate",
+      "game_id": "alcohol_1",
+      "location": "Автозаправка",
+      "link_kind": "advertised_reward",
+      "description": "Пойло для тех, кому нечего терять.",
+      "location_key": "GasStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Black Pirate",
+      "game_id": "alcohol_1",
+      "location": "Минимаркет · Даунтаун · центр",
+      "link_kind": "advertised_reward",
+      "description": "Пойло для тех, кому нечего терять.",
+      "location_key": "MiniMarket_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Black Pirate",
+      "game_id": "alcohol_1",
+      "location": "Кафе Rusty Burgers",
+      "link_kind": "advertised_reward",
+      "description": "Пойло для тех, кому нечего терять.",
+      "location_key": "Cafe_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Krystal Light",
+      "game_id": "alcohol_2",
+      "location": "Минимаркет · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "На вкус как вода, зато уходит по хорошей цене.",
+      "location_key": "MiniMarket_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Krystal Light",
+      "game_id": "alcohol_2",
+      "location": "Кафе Ocean Breeze",
+      "link_kind": "advertised_reward",
+      "description": "На вкус как вода, зато уходит по хорошей цене.",
+      "location_key": "Cafe_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Krystal Light",
+      "game_id": "alcohol_2",
+      "location": "Минимаркет · Даунтаун · север",
+      "link_kind": "advertised_reward",
+      "description": "На вкус как вода, зато уходит по хорошей цене.",
+      "location_key": "MiniMarket_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Krystal Light",
+      "game_id": "alcohol_2",
+      "location": "Минимаркет · Даунтаун · центр",
+      "link_kind": "advertised_reward",
+      "description": "На вкус как вода, зато уходит по хорошей цене.",
+      "location_key": "MiniMarket_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Krystal Light",
+      "game_id": "alcohol_2",
+      "location": "Кафе Rusty Burgers",
+      "link_kind": "advertised_reward",
+      "description": "На вкус как вода, зато уходит по хорошей цене.",
+      "location_key": "Cafe_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Diamond Breeze",
+      "game_id": "alcohol_3",
+      "location": "Минимаркет · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Бутылка выглядит дороже содержимого.",
+      "location_key": "MiniMarket_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Diamond Breeze",
+      "game_id": "alcohol_3",
+      "location": "Кафе Ocean Breeze",
+      "link_kind": "advertised_reward",
+      "description": "Бутылка выглядит дороже содержимого.",
+      "location_key": "Cafe_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Diamond Breeze",
+      "game_id": "alcohol_3",
+      "location": "Минимаркет · Даунтаун · север",
+      "link_kind": "advertised_reward",
+      "description": "Бутылка выглядит дороже содержимого.",
+      "location_key": "MiniMarket_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Diamond Breeze",
+      "game_id": "alcohol_3",
+      "location": "Минимаркет · Даунтаун · центр",
+      "link_kind": "advertised_reward",
+      "description": "Бутылка выглядит дороже содержимого.",
+      "location_key": "MiniMarket_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Diamond Breeze",
+      "game_id": "alcohol_3",
+      "location": "Кафе Rusty Burgers",
+      "link_kind": "advertised_reward",
+      "description": "Бутылка выглядит дороже содержимого.",
+      "location_key": "Cafe_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Golden Jaguar",
+      "game_id": "alcohol_5",
+      "location": "Минимаркет · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Открывать жалко. В закрытом виде бутылка уйдет коллекционерам дороже.",
+      "location_key": "MiniMarket_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Golden Jaguar",
+      "game_id": "alcohol_5",
+      "location": "Стрип-клуб",
+      "link_kind": "advertised_reward",
+      "description": "Открывать жалко. В закрытом виде бутылка уйдет коллекционерам дороже.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Golden Jaguar",
+      "game_id": "alcohol_5",
+      "location": "Кафе Ocean Breeze",
+      "link_kind": "advertised_reward",
+      "description": "Открывать жалко. В закрытом виде бутылка уйдет коллекционерам дороже.",
+      "location_key": "Cafe_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Golden Jaguar",
+      "game_id": "alcohol_5",
+      "location": "Минимаркет · Даунтаун · север",
+      "link_kind": "advertised_reward",
+      "description": "Открывать жалко. В закрытом виде бутылка уйдет коллекционерам дороже.",
+      "location_key": "MiniMarket_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Golden Jaguar",
+      "game_id": "alcohol_5",
+      "location": "Минимаркет · Даунтаун · центр",
+      "link_kind": "advertised_reward",
+      "description": "Открывать жалко. В закрытом виде бутылка уйдет коллекционерам дороже.",
+      "location_key": "MiniMarket_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бутылка Golden Jaguar",
+      "game_id": "alcohol_5",
+      "location": "Кафе Rusty Burgers",
+      "link_kind": "advertised_reward",
+      "description": "Открывать жалко. В закрытом виде бутылка уйдет коллекционерам дороже.",
+      "location_key": "Cafe_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Гранд-отель",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Минимаркет · Санни-Бич",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "MiniMarket_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Отель Seasons",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "Hotel_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Отель Reef",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "Hotel_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Стрип-клуб",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Кафе Ocean Breeze",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "Cafe_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Минимаркет · Даунтаун · север",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "MiniMarket_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Автозаправка",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "GasStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Минимаркет · Даунтаун · центр",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "MiniMarket_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Алкоголь",
+      "game_id": "alcohol_box_1",
+      "location": "Кафе Rusty Burgers",
+      "link_kind": "known_item",
+      "description": "Недорогой алкоголь из обычного продуктового магазина.",
+      "location_key": "Cafe_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Статуя божества",
+      "game_id": "antique_1",
+      "location": "Арт-галерея",
+      "link_kind": "advertised_reward",
+      "description": "Выглядит вполне дружелюбно. Надеюсь, он принесет мне удачу в виде купюр.",
+      "location_key": "Gallery",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Золотая статуя кошки",
+      "game_id": "antique_2",
+      "location": "Арт-галерея",
+      "link_kind": "advertised_reward",
+      "description": "Тяжелая, безвкусная и полностью из золота. Моя любимая порода кошек.",
+      "location_key": "Gallery",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Каменная статуя девы",
+      "game_id": "antique_4",
+      "location": "Арт-галерея",
+      "link_kind": "advertised_reward",
+      "description": "Рожа страшная, зато есть украшения. Любители старины за такое глотки грызут.",
+      "location_key": "Gallery",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Дешевые древности",
+      "game_id": "antique_set_1",
+      "location": "Коттедж №5",
+      "link_kind": "known_item",
+      "description": "Кто-то пытался склеить этот хлам суперклеем. Коллекционеры только посмеются.",
+      "location_key": "Cottage_05",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Дешевые древности",
+      "game_id": "antique_set_1",
+      "location": "Арт-галерея",
+      "link_kind": "known_item",
+      "description": "Кто-то пытался склеить этот хлам суперклеем. Коллекционеры только посмеются.",
+      "location_key": "Gallery",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Карточка с Брэдли Сандерсоном",
+      "game_id": "baseball_card_5",
+      "location": "Особняк аристократа",
+      "link_kind": "advertised_reward",
+      "description": "За этот кусок картона можно купить подержанную тачку.",
+      "location_key": "Cottage_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Карточка с Брэдли Сандерсоном",
+      "game_id": "baseball_card_5",
+      "location": "Элитный коттедж",
+      "link_kind": "advertised_reward",
+      "description": "За этот кусок картона можно купить подержанную тачку.",
+      "location_key": "Cottage_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Карточка с Брэдли Сандерсоном",
+      "game_id": "baseball_card_5",
+      "location": "Коттедж №5",
+      "link_kind": "advertised_reward",
+      "description": "За этот кусок картона можно купить подержанную тачку.",
+      "location_key": "Cottage_05",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Карточка с Брэдли Сандерсоном",
+      "game_id": "baseball_card_5",
+      "location": "Коттедж №4",
+      "link_kind": "advertised_reward",
+      "description": "За этот кусок картона можно купить подержанную тачку.",
+      "location_key": "Cottage_04",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Buletti Soltempra",
+      "game_id": "buletti_soltempra",
+      "location": "Гранд-отель",
+      "link_kind": "known_item",
+      "description": "Максимальная скорость. Максимальный престиж.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Полевая горелка",
+      "game_id": "burner_2",
+      "location": "Магазин экипировки: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Стабильный огонь. Свою еду я разогрел, а этот аппарат легко превратить в быстрые деньги.",
+      "location_key": "EquipShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Полевая горелка",
+      "game_id": "burner_2",
+      "location": "Магазин экипировки: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Стабильный огонь. Свою еду я разогрел, а этот аппарат легко превратить в быстрые деньги.",
+      "location_key": "EquipShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бюджетная магнитола",
+      "game_id": "car_device_2",
+      "location": "Автозаправка",
+      "link_kind": "advertised_reward",
+      "description": "Обычная магнитола. Найдется тот, кому и такая пригодится.",
+      "location_key": "GasStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Руль",
+      "game_id": "car_parts_5",
+      "location": "Автозаправка",
+      "link_kind": "advertised_reward",
+      "description": "Подушка безопасности, надеюсь, целая. Снять было непросто, но спрос на них бешеный.",
+      "location_key": "GasStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Премиальный автомобильный компрессор",
+      "game_id": "car_parts_8",
+      "location": "Автозаправка",
+      "link_kind": "advertised_reward",
+      "description": "Дорогая модель. Такие обычно берут один раз и надолго.",
+      "location_key": "GasStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Автомобильные запчасти",
+      "game_id": "car_spare_parts_1",
+      "location": "Особняк аристократа",
+      "link_kind": "known_item",
+      "description": "Груда металла в масле. Весят тонну - стоят мало.",
+      "location_key": "Cottage_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Автомобильные запчасти",
+      "game_id": "car_spare_parts_1",
+      "location": "Коттедж №3",
+      "link_kind": "known_item",
+      "description": "Груда металла в масле. Весят тонну - стоят мало.",
+      "location_key": "Cottage_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Автомобильные запчасти",
+      "game_id": "car_spare_parts_1",
+      "location": "Элитный коттедж",
+      "link_kind": "known_item",
+      "description": "Груда металла в масле. Весят тонну - стоят мало.",
+      "location_key": "Cottage_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Автомобильные запчасти",
+      "game_id": "car_spare_parts_1",
+      "location": "Коттедж №4",
+      "link_kind": "known_item",
+      "description": "Груда металла в масле. Весят тонну - стоят мало.",
+      "location_key": "Cottage_04",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Автомобильные запчасти",
+      "game_id": "car_spare_parts_1",
+      "location": "Автозаправка",
+      "link_kind": "known_item",
+      "description": "Груда металла в масле. Весят тонну - стоят мало.",
+      "location_key": "GasStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Коттедж №3",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Cottage_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Гранд-отель",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Минимаркет · Санни-Бич",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "MiniMarket_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Ювелирный магазин: Запад",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Jewelry_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Магазин экипировки: Запад",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "EquipShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Оружейный магазин: Запад",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "WeaponShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Аптека · Санни-Бич",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Pharmacy_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Магазин электроники · Санни-Бич",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "ElectronicsStore",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Отель Seasons",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Hotel_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Отель Reef",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Hotel_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Стрип-клуб",
+      "link_kind": "advertised_reward",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Стрип-клуб",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Кафе Ocean Breeze",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Cafe_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Полицейский участок",
+      "link_kind": "advertised_reward",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Полицейский участок",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Банк Лути-Бей",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Bank",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Банк Лути-Бей",
+      "link_kind": "advertised_reward",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Bank",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Магазин электроники · Даунтаун",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "ElectronicStore_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Минимаркет · Даунтаун · север",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "MiniMarket_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Автозаправка",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "GasStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Аптека · Даунтаун",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Pharmacy_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Минимаркет · Даунтаун · центр",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "MiniMarket_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Кафе Rusty Burgers",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Cafe_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Ювелирный магазин: Восток",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "Jewelry_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Оружейный магазин: Восток",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "WeaponShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наличные",
+      "game_id": "cash_1",
+      "location": "Магазин экипировки: Восток",
+      "link_kind": "known_item",
+      "description": "Грязные деньги можно потратить на <color=#{:palette(Main)}>черном рынке</color> или на развитие <color=#{:palette(Main)}>поставок</color>.\nКроме того, их можно загрузить в <color=#{:palette(Main)}>стол для отмывки</color> на базе, чтобы перевести на банковский счет.",
+      "location_key": "EquipShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Комикс TADASHI",
+      "game_id": "comics_2",
+      "location": "Коттедж №3",
+      "link_kind": "advertised_reward",
+      "description": "Чтиво про ниндзя. Любимая макулатура гиков.",
+      "location_key": "Cottage_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Комикс DIGITAL SOUL",
+      "game_id": "comics_3",
+      "location": "Особняк аристократа",
+      "link_kind": "advertised_reward",
+      "description": "Про роботов с душой. А мне и правда доводилось встречать банкоматы человечнее некоторых людей.",
+      "location_key": "Cottage_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Комикс DIGITAL SOUL",
+      "game_id": "comics_3",
+      "location": "Элитный коттедж",
+      "link_kind": "advertised_reward",
+      "description": "Про роботов с душой. А мне и правда доводилось встречать банкоматы человечнее некоторых людей.",
+      "location_key": "Cottage_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Комикс DIGITAL SOUL",
+      "game_id": "comics_3",
+      "location": "Коттедж №5",
+      "link_kind": "advertised_reward",
+      "description": "Про роботов с душой. А мне и правда доводилось встречать банкоматы человечнее некоторых людей.",
+      "location_key": "Cottage_05",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Комикс DIGITAL SOUL",
+      "game_id": "comics_3",
+      "location": "Коттедж №4",
+      "link_kind": "advertised_reward",
+      "description": "Про роботов с душой. А мне и правда доводилось встречать банкоматы человечнее некоторых людей.",
+      "location_key": "Cottage_04",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Презервативы Zipit",
+      "game_id": "condoms_3",
+      "location": "Аптека · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Зашел - вышел. Для тех, кто вечно спешит.",
+      "location_key": "Pharmacy_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Презервативы Zipit",
+      "game_id": "condoms_3",
+      "location": "Аптека · Даунтаун",
+      "link_kind": "advertised_reward",
+      "description": "Зашел - вышел. Для тех, кто вечно спешит.",
+      "location_key": "Pharmacy_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Презервативы LUX",
+      "game_id": "condoms_4",
+      "location": "Стрип-клуб",
+      "link_kind": "advertised_reward",
+      "description": "Тонкие, как намеки офицера на взятку. Почти не ощущаются.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Консоль G-Cube",
+      "game_id": "console_4",
+      "location": "Магазин электроники · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Лимитированная серия. Золотая жила для перекупов.",
+      "location_key": "ElectronicsStore",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Консоль G-Cube",
+      "game_id": "console_4",
+      "location": "Магазин электроники · Даунтаун",
+      "link_kind": "advertised_reward",
+      "description": "Лимитированная серия. Золотая жила для перекупов.",
+      "location_key": "ElectronicStore_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "DP-9 Mk2",
+      "game_id": "dp9_m2",
+      "location": "Стрип-клуб",
+      "link_kind": "known_item",
+      "description": "Универсальный самозарядный пистолет.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пудра",
+      "game_id": "drugs_1",
+      "location": "Коттедж №3",
+      "link_kind": "advertised_reward",
+      "description": "Крепкий и недешевый товар. Явно создана не для выпечки.",
+      "location_key": "Cottage_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пудра",
+      "game_id": "drugs_1",
+      "location": "Коттедж №3",
+      "link_kind": "known_item",
+      "description": "Крепкий и недешевый товар. Явно создана не для выпечки.",
+      "location_key": "Cottage_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пудра",
+      "game_id": "drugs_1",
+      "location": "Коттедж №5",
+      "link_kind": "known_item",
+      "description": "Крепкий и недешевый товар. Явно создана не для выпечки.",
+      "location_key": "Cottage_05",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пудра",
+      "game_id": "drugs_1",
+      "location": "Гранд-отель",
+      "link_kind": "known_item",
+      "description": "Крепкий и недешевый товар. Явно создана не для выпечки.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пудра",
+      "game_id": "drugs_1",
+      "location": "Стрип-клуб",
+      "link_kind": "known_item",
+      "description": "Крепкий и недешевый товар. Явно создана не для выпечки.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пудра",
+      "game_id": "drugs_1",
+      "location": "Полицейский участок",
+      "link_kind": "known_item",
+      "description": "Крепкий и недешевый товар. Явно создана не для выпечки.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пудра",
+      "game_id": "drugs_1",
+      "location": "Полицейский участок",
+      "link_kind": "advertised_reward",
+      "description": "Крепкий и недешевый товар. Явно создана не для выпечки.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Брикет",
+      "game_id": "drugs_bricket_1",
+      "location": "Коттедж №3",
+      "link_kind": "known_item",
+      "description": "Похож на кирпич, но дом из него не построить. Зато крышу сносит знатно.",
+      "location_key": "Cottage_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Брикет",
+      "game_id": "drugs_bricket_1",
+      "location": "Полицейский участок",
+      "link_kind": "known_item",
+      "description": "Похож на кирпич, но дом из него не построить. Зато крышу сносит знатно.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Брикет",
+      "game_id": "drugs_bricket_1",
+      "location": "Арт-галерея",
+      "link_kind": "known_item",
+      "description": "Похож на кирпич, но дом из него не построить. Зато крышу сносит знатно.",
+      "location_key": "Gallery",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Брикет",
+      "game_id": "drugs_bricket_1",
+      "location": "Автозаправка",
+      "link_kind": "known_item",
+      "description": "Похож на кирпич, но дом из него не построить. Зато крышу сносит знатно.",
+      "location_key": "GasStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Серьги AMINA",
+      "game_id": "earrings_2",
+      "location": "Гранд-отель",
+      "link_kind": "advertised_reward",
+      "description": "Эти камни стоят больше, чем моя жизнь. Главное - донести до скупщика живым.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Серьги AMINA",
+      "game_id": "earrings_2",
+      "location": "Ювелирный магазин: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Эти камни стоят больше, чем моя жизнь. Главное - донести до скупщика живым.",
+      "location_key": "Jewelry_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Серьги AMINA",
+      "game_id": "earrings_2",
+      "location": "Ювелирный магазин: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Эти камни стоят больше, чем моя жизнь. Главное - донести до скупщика живым.",
+      "location_key": "Jewelry_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "BIG EGG #53",
+      "game_id": "egg_faberge_1",
+      "location": "Арт-галерея",
+      "link_kind": "known_item",
+      "description": "Легендарный и неповторимый ювелирный шедевр!",
+      "location_key": "Gallery",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Электроника",
+      "game_id": "electronics_box_1",
+      "location": "Магазин электроники · Санни-Бич",
+      "link_kind": "known_item",
+      "description": "Просто куча проводов и микросхем. Можно сдать на медь, если совсем прижмет.",
+      "location_key": "ElectronicsStore",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Электроника",
+      "game_id": "electronics_box_1",
+      "location": "Магазин электроники · Даунтаун",
+      "link_kind": "known_item",
+      "description": "Просто куча проводов и микросхем. Можно сдать на медь, если совсем прижмет.",
+      "location_key": "ElectronicStore_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Набор карабинов",
+      "game_id": "equip_carbine_1",
+      "location": "Магазин экипировки: Запад",
+      "link_kind": "known_item",
+      "description": "Дешевый алюминий. В горы идти с такими страшно. Только ключи вешать.",
+      "location_key": "EquipShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Набор карабинов",
+      "game_id": "equip_carbine_1",
+      "location": "Магазин экипировки: Восток",
+      "link_kind": "known_item",
+      "description": "Дешевый алюминий. В горы идти с такими страшно. Только ключи вешать.",
+      "location_key": "EquipShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Коллекционный мультитул",
+      "game_id": "equipment_11",
+      "location": "Магазин экипировки: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Штучная работа. Сломаешь хоть деталь - потеряешь состояние. Срочно продать ценителям.",
+      "location_key": "EquipShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Коллекционный мультитул",
+      "game_id": "equipment_11",
+      "location": "Магазин экипировки: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Штучная работа. Сломаешь хоть деталь - потеряешь состояние. Срочно продать ценителям.",
+      "location_key": "EquipShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бинокль",
+      "game_id": "equipment_2",
+      "location": "Магазин экипировки: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Оптика, чтобы смотреть вдаль. Но я полагаюсь на свое зрение и чутье.",
+      "location_key": "EquipShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бинокль",
+      "game_id": "equipment_2",
+      "location": "Магазин экипировки: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Оптика, чтобы смотреть вдаль. Но я полагаюсь на свое зрение и чутье.",
+      "location_key": "EquipShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Хрупкая статуэтка",
+      "game_id": "figurine_1",
+      "location": "Арт-галерея",
+      "link_kind": "known_item",
+      "description": "Дешевая безделушка. Внутри, кажется, что-то есть. Стоит разбить ее и посмотреть.",
+      "location_key": "Gallery",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Светошумовая граната",
+      "game_id": "flash_grenade_1",
+      "location": "Полицейский участок",
+      "link_kind": "known_item",
+      "description": "Граната, временно  <color=#{:palette(Main)}>ослепляющая</color> противников.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Осколочная граната",
+      "game_id": "frag_grenade_1",
+      "location": "Полицейский участок",
+      "link_kind": "known_item",
+      "description": "Граната, наносящая  <color=#{:palette(Main)}>значительный урон</color> в радиусе взрыва.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Газовая граната",
+      "game_id": "gas_grenade_1",
+      "location": "Полицейский участок",
+      "link_kind": "known_item",
+      "description": "Граната, создающая <color=#{:palette(Main)}>облако ядовитого газа</color>.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Рубин в кейсе",
+      "game_id": "gemstone_3",
+      "location": "Банк Лути-Бей",
+      "link_kind": "advertised_reward",
+      "description": "Кроваво-красный камень. Выглядит зловеще, зато цена приятная.",
+      "location_key": "Bank",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Золотой слиток",
+      "game_id": "gold_bar_1",
+      "location": "Банк Лути-Бей",
+      "link_kind": "known_item",
+      "description": "Эталон веса и жадности. Тяжелый, желтый, прекрасный. Можно обменять в <color=#{:palette(Main)}>бартере</color>.",
+      "location_key": "Bank",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Золотой слиток",
+      "game_id": "gold_bar_1",
+      "location": "Банк Лути-Бей",
+      "link_kind": "advertised_reward",
+      "description": "Эталон веса и жадности. Тяжелый, желтый, прекрасный. Можно обменять в <color=#{:palette(Main)}>бартере</color>.",
+      "location_key": "Bank",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наушники AIRHEADS",
+      "game_id": "headphones_1",
+      "location": "Магазин электроники · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Затычки для ушей. Популярный бренд, звук так себе, зато логотип видно издалека.",
+      "location_key": "ElectronicsStore",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Наушники AIRHEADS",
+      "game_id": "headphones_1",
+      "location": "Магазин электроники · Даунтаун",
+      "link_kind": "advertised_reward",
+      "description": "Затычки для ушей. Популярный бренд, звук так себе, зато логотип видно издалека.",
+      "location_key": "ElectronicStore_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бижутерия",
+      "game_id": "jewelry_pouch_1",
+      "location": "Гранд-отель",
+      "link_kind": "known_item",
+      "description": "Блестящие стекляшки. Издалека похоже на золото, вблизи - на дешевый карнавал.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бижутерия",
+      "game_id": "jewelry_pouch_1",
+      "location": "Ювелирный магазин: Запад",
+      "link_kind": "known_item",
+      "description": "Блестящие стекляшки. Издалека похоже на золото, вблизи - на дешевый карнавал.",
+      "location_key": "Jewelry_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Бижутерия",
+      "game_id": "jewelry_pouch_1",
+      "location": "Ювелирный магазин: Восток",
+      "link_kind": "known_item",
+      "description": "Блестящие стекляшки. Издалека похоже на золото, вблизи - на дешевый карнавал.",
+      "location_key": "Jewelry_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Журнал VELVET RIOT",
+      "game_id": "journal_4",
+      "location": "Коттедж №3",
+      "link_kind": "advertised_reward",
+      "description": "На обложке вдова миллиардера. Или убийца. В нашем мире это часто одно и то же.",
+      "location_key": "Cottage_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Журнал OPALINE",
+      "game_id": "journal_5",
+      "location": "Особняк аристократа",
+      "link_kind": "advertised_reward",
+      "description": "Коллекционеры покупают этот редкий выпуск, только чтобы оставить на столе и заставить гостей завидовать. Легкие деньги.",
+      "location_key": "Cottage_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Журнал OPALINE",
+      "game_id": "journal_5",
+      "location": "Элитный коттедж",
+      "link_kind": "advertised_reward",
+      "description": "Коллекционеры покупают этот редкий выпуск, только чтобы оставить на столе и заставить гостей завидовать. Легкие деньги.",
+      "location_key": "Cottage_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Журнал OPALINE",
+      "game_id": "journal_5",
+      "location": "Коттедж №5",
+      "link_kind": "advertised_reward",
+      "description": "Коллекционеры покупают этот редкий выпуск, только чтобы оставить на столе и заставить гостей завидовать. Легкие деньги.",
+      "location_key": "Cottage_05",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Журнал OPALINE",
+      "game_id": "journal_5",
+      "location": "Коттедж №4",
+      "link_kind": "advertised_reward",
+      "description": "Коллекционеры покупают этот редкий выпуск, только чтобы оставить на столе и заставить гостей завидовать. Легкие деньги.",
+      "location_key": "Cottage_04",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Ноутбук PD STATION",
+      "game_id": "laptop_4",
+      "location": "Магазин электроники · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Тяжелый, бронированный, зашифрованный. Можно продать, взломать не получится.",
+      "location_key": "ElectronicsStore",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Ноутбук PD STATION",
+      "game_id": "laptop_4",
+      "location": "Магазин электроники · Даунтаун",
+      "link_kind": "advertised_reward",
+      "description": "Тяжелый, бронированный, зашифрованный. Можно продать, взломать не получится.",
+      "location_key": "ElectronicStore_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Зажигалка RedOlive",
+      "game_id": "lighter_3",
+      "location": "Отель Seasons",
+      "link_kind": "advertised_reward",
+      "description": "Красная, броская. Легко потерять, легко найти нового владельца.",
+      "location_key": "Hotel_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Зажигалка RedOlive",
+      "game_id": "lighter_3",
+      "location": "Отель Reef",
+      "link_kind": "advertised_reward",
+      "description": "Красная, броская. Легко потерять, легко найти нового владельца.",
+      "location_key": "Hotel_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Ожерелье GUDDI",
+      "game_id": "necklace_2",
+      "location": "Ювелирный магазин: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Греческий орнамент. Тяжелое, выглядит как музейный экспонат. Надеюсь, не бижутерия.",
+      "location_key": "Jewelry_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Ожерелье GUDDI",
+      "game_id": "necklace_2",
+      "location": "Ювелирный магазин: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Греческий орнамент. Тяжелое, выглядит как музейный экспонат. Надеюсь, не бижутерия.",
+      "location_key": "Jewelry_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Ожерелье PENARAI",
+      "game_id": "necklace_6",
+      "location": "Гранд-отель",
+      "link_kind": "advertised_reward",
+      "description": "Бриллианты слепят глаза. На такой ошейник можно купить полгорода.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Обезболивающие",
+      "game_id": "painkiller_1",
+      "location": "Аптека · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Мощный медицинский препарат с моментальным действием.",
+      "location_key": "Pharmacy_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Обезболивающие",
+      "game_id": "painkiller_1",
+      "location": "Аптека · Даунтаун",
+      "link_kind": "advertised_reward",
+      "description": "Мощный медицинский препарат с моментальным действием.",
+      "location_key": "Pharmacy_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Парфюм FLERS",
+      "game_id": "perfume_2",
+      "location": "Особняк аристократа",
+      "link_kind": "advertised_reward",
+      "description": "Резкий запах. Шлейф такой, что можно выследить владельца за километр.",
+      "location_key": "Cottage_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Парфюм FLERS",
+      "game_id": "perfume_2",
+      "location": "Коттедж №3",
+      "link_kind": "advertised_reward",
+      "description": "Резкий запах. Шлейф такой, что можно выследить владельца за километр.",
+      "location_key": "Cottage_03",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Парфюм FLERS",
+      "game_id": "perfume_2",
+      "location": "Элитный коттедж",
+      "link_kind": "advertised_reward",
+      "description": "Резкий запах. Шлейф такой, что можно выследить владельца за километр.",
+      "location_key": "Cottage_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Парфюм FLERS",
+      "game_id": "perfume_2",
+      "location": "Коттедж №5",
+      "link_kind": "advertised_reward",
+      "description": "Резкий запах. Шлейф такой, что можно выследить владельца за километр.",
+      "location_key": "Cottage_05",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Парфюм FLERS",
+      "game_id": "perfume_2",
+      "location": "Коттедж №4",
+      "link_kind": "advertised_reward",
+      "description": "Резкий запах. Шлейф такой, что можно выследить владельца за километр.",
+      "location_key": "Cottage_04",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Медикаменты",
+      "game_id": "pharma_pack_1",
+      "location": "Аптека · Санни-Бич",
+      "link_kind": "known_item",
+      "description": "Обычные аптечные медикаменты.",
+      "location_key": "Pharmacy_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Медикаменты",
+      "game_id": "pharma_pack_1",
+      "location": "Аптека · Даунтаун",
+      "link_kind": "known_item",
+      "description": "Обычные аптечные медикаменты.",
+      "location_key": "Pharmacy_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Тонометр",
+      "game_id": "pharma_tools_4",
+      "location": "Аптека · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Больно сжимает руку. Напоминает, как меня вязали копы в прошлом месяце.",
+      "location_key": "Pharmacy_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Тонометр",
+      "game_id": "pharma_tools_4",
+      "location": "Аптека · Даунтаун",
+      "link_kind": "advertised_reward",
+      "description": "Больно сжимает руку. Напоминает, как меня вязали копы в прошлом месяце.",
+      "location_key": "Pharmacy_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Смартфон Flip Ring",
+      "game_id": "phone_4",
+      "location": "Магазин электроники · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Гнется пополам. Технология ради понтов. Экран треснет от косого взгляда.",
+      "location_key": "ElectronicsStore",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Смартфон Flip Ring",
+      "game_id": "phone_4",
+      "location": "Магазин электроники · Даунтаун",
+      "link_kind": "advertised_reward",
+      "description": "Гнется пополам. Технология ради понтов. Экран треснет от косого взгляда.",
+      "location_key": "ElectronicStore_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Картина",
+      "game_id": "picture_fake_1",
+      "location": "Особняк аристократа",
+      "link_kind": "known_item",
+      "description": "Принт на холсте. Выглядит как искусство, стоит как обои.",
+      "location_key": "Cottage_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Картина",
+      "game_id": "picture_fake_1",
+      "location": "Элитный коттедж",
+      "link_kind": "known_item",
+      "description": "Принт на холсте. Выглядит как искусство, стоит как обои.",
+      "location_key": "Cottage_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Картина",
+      "game_id": "picture_fake_1",
+      "location": "Стрип-клуб",
+      "link_kind": "known_item",
+      "description": "Принт на холсте. Выглядит как искусство, стоит как обои.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Картина",
+      "game_id": "picture_tube_3",
+      "location": "Арт-галерея",
+      "link_kind": "advertised_reward",
+      "description": "Настоящая мазня на холсте. Я в искусстве ноль, но подпись в углу чего-то стоит.",
+      "location_key": "Gallery",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Колода карт Mystic Card Chronicles",
+      "game_id": "poker_cards_2",
+      "location": "Стрип-клуб",
+      "link_kind": "advertised_reward",
+      "description": "Рубашка отвлекает внимание. Пока кто-то разглядывает узоры, ты чистишь его карманы.",
+      "location_key": "StripClub_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Колода карт Ace's Dominion",
+      "game_id": "poker_cards_3",
+      "location": "Отель Seasons",
+      "link_kind": "advertised_reward",
+      "description": "Потрепанные карты. Ими играли в каждом подвале города. Крапленые, наверное.",
+      "location_key": "Hotel_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Колода карт Ace's Dominion",
+      "game_id": "poker_cards_3",
+      "location": "Отель Reef",
+      "link_kind": "advertised_reward",
+      "description": "Потрепанные карты. Ими играли в каждом подвале города. Крапленые, наверное.",
+      "location_key": "Hotel_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "RC 5.56 Mk3",
+      "game_id": "rc556_m3",
+      "location": "Оружейный магазин: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Классическая штурмовая винтовка.",
+      "location_key": "WeaponShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "RC 5.56 Mk3",
+      "game_id": "rc556_m3",
+      "location": "Полицейский участок",
+      "link_kind": "advertised_reward",
+      "description": "Классическая штурмовая винтовка.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "RC 5.56 Mk3",
+      "game_id": "rc556_m3",
+      "location": "Оружейный магазин: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Классическая штурмовая винтовка.",
+      "location_key": "WeaponShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Патроны для штурмовой винтовки",
+      "game_id": "rifle_ammo_1",
+      "location": "Оружейный магазин: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Патроны среднего калибра.",
+      "location_key": "WeaponShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Патроны для штурмовой винтовки",
+      "game_id": "rifle_ammo_1",
+      "location": "Оружейный магазин: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Патроны среднего калибра.",
+      "location_key": "WeaponShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Кольцо MAFFI",
+      "game_id": "ring_5",
+      "location": "Ювелирный магазин: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Звериный оскал из золота. Для тех, кто хочет казаться опасным.",
+      "location_key": "Jewelry_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Кольцо MAFFI",
+      "game_id": "ring_5",
+      "location": "Ювелирный магазин: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Звериный оскал из золота. Для тех, кто хочет казаться опасным.",
+      "location_key": "Jewelry_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Кольцо PRIDE",
+      "game_id": "ring_6",
+      "location": "Гранд-отель",
+      "link_kind": "advertised_reward",
+      "description": "Камень отливает розовым, как дорогое шампанское. Стоит столько, что мне страшно держать его в руках.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Дымовая граната",
+      "game_id": "smoke_grenade_1",
+      "location": "Полицейский участок",
+      "link_kind": "known_item",
+      "description": "Граната, создающая при взрыве <color=#{:palette(Main)}>дымовую завесу</color>.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Игрушка CollectiToy #2",
+      "game_id": "toy_2",
+      "location": "Отель Seasons",
+      "link_kind": "advertised_reward",
+      "description": "Красная серия. Отличается только цветом пластика и завышенной ценой.",
+      "location_key": "Hotel_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Игрушка CollectiToy #2",
+      "game_id": "toy_2",
+      "location": "Отель Reef",
+      "link_kind": "advertised_reward",
+      "description": "Красная серия. Отличается только цветом пластика и завышенной ценой.",
+      "location_key": "Hotel_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Тяжелый бронежилет МК3",
+      "game_id": "vest3_m3",
+      "location": "Магазин экипировки: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Модифицированный тяжелый бронежилет с максимальным уровнем защиты.",
+      "location_key": "EquipShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Тяжелый бронежилет МК3",
+      "game_id": "vest3_m3",
+      "location": "Магазин экипировки: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Модифицированный тяжелый бронежилет с максимальным уровнем защиты.",
+      "location_key": "EquipShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Косметическая ампула",
+      "game_id": "vial_5",
+      "location": "Аптека · Санни-Бич",
+      "link_kind": "advertised_reward",
+      "description": "Жижа для лица. Стоит бешеных денег, а по сути - просто вода с жиром.",
+      "location_key": "Pharmacy_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Косметическая ампула",
+      "game_id": "vial_5",
+      "location": "Аптека · Даунтаун",
+      "link_kind": "advertised_reward",
+      "description": "Жижа для лица. Стоит бешеных денег, а по сути - просто вода с жиром.",
+      "location_key": "Pharmacy_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Платиновый диск",
+      "game_id": "vinyl_1",
+      "location": "Отель Seasons",
+      "link_kind": "advertised_reward",
+      "description": "Кто-то пахал ради этого диска всю жизнь, а мне всего лишь надо было выбить окно. Жизнь несправедлива, правда?",
+      "location_key": "Hotel_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Платиновый диск",
+      "game_id": "vinyl_1",
+      "location": "Отель Reef",
+      "link_kind": "advertised_reward",
+      "description": "Кто-то пахал ради этого диска всю жизнь, а мне всего лишь надо было выбить окно. Жизнь несправедлива, правда?",
+      "location_key": "Hotel_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Часы NURDAN",
+      "game_id": "watch_4",
+      "location": "Ювелирный магазин: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Скелетоны. Видно все шестеренки. Красиво крутятся, дорого стоят.",
+      "location_key": "Jewelry_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Часы NURDAN",
+      "game_id": "watch_4",
+      "location": "Ювелирный магазин: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Скелетоны. Видно все шестеренки. Красиво крутятся, дорого стоят.",
+      "location_key": "Jewelry_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Часы POLEX",
+      "game_id": "watch_5",
+      "location": "Гранд-отель",
+      "link_kind": "advertised_reward",
+      "description": "Такие часы не покупают, их передают по наследству... или крадут у тех, кто зазевался.",
+      "location_key": "GrandHotel",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Профессиональный набор для чистки оружия",
+      "game_id": "weapon_cleaning_2",
+      "location": "Оружейный магазин: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Целый чемодан инструментов. Для тех, кто любит свою пушку больше, чем маму.",
+      "location_key": "WeaponShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Профессиональный набор для чистки оружия",
+      "game_id": "weapon_cleaning_2",
+      "location": "Оружейный магазин: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Целый чемодан инструментов. Для тех, кто любит свою пушку больше, чем маму.",
+      "location_key": "WeaponShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пульт управления дроном",
+      "game_id": "weapon_trinket_3",
+      "location": "Оружейный магазин: Запад",
+      "link_kind": "advertised_reward",
+      "description": "Зашифрованный пульт от элитного беспилотника. Без самого аппарата бесполезен, но отвалят за него состояние.",
+      "location_key": "WeaponShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Пульт управления дроном",
+      "game_id": "weapon_trinket_3",
+      "location": "Оружейный магазин: Восток",
+      "link_kind": "advertised_reward",
+      "description": "Зашифрованный пульт от элитного беспилотника. Без самого аппарата бесполезен, но отвалят за него состояние.",
+      "location_key": "WeaponShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Детали для оружия",
+      "game_id": "weaponparts_box_1",
+      "location": "Оружейный магазин: Запад",
+      "link_kind": "known_item",
+      "description": "Пружины, бойки, штифты. Мелочевка, которая вечно теряется.",
+      "location_key": "WeaponShop_01",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Детали для оружия",
+      "game_id": "weaponparts_box_1",
+      "location": "Полицейский участок",
+      "link_kind": "known_item",
+      "description": "Пружины, бойки, штифты. Мелочевка, которая вечно теряется.",
+      "location_key": "PoliceStation",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    },
+    {
+      "uri": "derived/atlas_snapshot.json",
+      "item": "Детали для оружия",
+      "game_id": "weaponparts_box_1",
+      "location": "Оружейный магазин: Восток",
+      "link_kind": "known_item",
+      "description": "Пружины, бойки, штифты. Мелочевка, которая вечно теряется.",
+      "location_key": "WeaponShop_02",
+      "description_ru": "Сводка точек, зданий и способов получения"
+    }
+  ],
+  "unknown": [
+    {
+      "name": "Бутылка Old Pocket",
+      "game_id": "alcohol_10",
+      "description": "Жжет горло, зато скупщику придется по вкусу."
+    },
+    {
+      "name": "Бутылка Rosefield",
+      "game_id": "alcohol_11",
+      "description": "Выглядит дорого, пахнет приятно. Скупщики берут ради красивой этикетки."
+    },
+    {
+      "name": "Бутылка Krystal Authority",
+      "game_id": "alcohol_12",
+      "description": "Барная классика с дорогой полки. Быстро уходит и приносит грязные деньги."
+    },
+    {
+      "name": "Бутылка Amber Shift",
+      "game_id": "alcohol_13",
+      "description": "Элитное пойло. Его хранят годами, пока кто-то не приходит с сумкой."
+    },
+    {
+      "name": "Бутылка Velvet Dynasty",
+      "game_id": "alcohol_14",
+      "description": "Вековая выдержка и изящная бутылка. Жидкое золото для богатых коллекционеров."
+    },
+    {
+      "name": "Бутылка King’s Reserve",
+      "game_id": "alcohol_15",
+      "description": "Редкость из частной коллекции. За такую бутылку скупщик вскроет свой сейф без лишних вопросов."
+    },
+    {
+      "name": "Бутылка Krystal Light",
+      "game_id": "alcohol_2",
+      "description": "На вкус как вода, зато уходит по хорошей цене."
+    },
+    {
+      "name": "Бутылка Diamond Breeze",
+      "game_id": "alcohol_3",
+      "description": "Бутылка выглядит дороже содержимого."
+    },
+    {
+      "name": "Бутылка Happy Forester",
+      "game_id": "alcohol_4",
+      "description": "Когда в карманах одна мелочь, а голову нужно отключить прямо сейчас."
+    },
+    {
+      "name": "Бутылка Golden Jaguar",
+      "game_id": "alcohol_5",
+      "description": "Открывать жалко. В закрытом виде бутылка уйдет коллекционерам дороже."
+    },
+    {
+      "name": "Бутылка Eclipse",
+      "game_id": "alcohol_6",
+      "description": "Пахнет дубом и большими деньгами."
+    },
+    {
+      "name": "Статуя божества",
+      "game_id": "antique_1",
+      "description": "Выглядит вполне дружелюбно. Надеюсь, он принесет мне удачу в виде купюр."
+    },
+    {
+      "name": "Золотая статуя кошки",
+      "game_id": "antique_2",
+      "description": "Тяжелая, безвкусная и полностью из золота. Моя любимая порода кошек."
+    },
+    {
+      "name": "Деревянная статуэтка",
+      "game_id": "antique_3",
+      "description": "Выглядит как искусство, горит как дрова. Денег много не дадут."
+    },
+    {
+      "name": "Каменная статуя девы",
+      "game_id": "antique_4",
+      "description": "Рожа страшная, зато есть украшения. Любители старины за такое глотки грызут."
+    },
+    {
+      "name": "Деревянный тотем",
+      "game_id": "antique_5",
+      "description": "Дешевая копия для туристов. Пугает только своим низким качеством."
+    },
+    {
+      "name": "Медный кувшин",
+      "game_id": "antique_6",
+      "description": "Подделка под старину. Его закапывают в землю на неделю, чтобы впарить экспертам."
+    },
+    {
+      "name": "AP Scalar Mk2",
+      "game_id": "apscalar_m2",
+      "description": "Современный пистолет-пулемет с улучшенными характеристиками."
+    },
+    {
+      "name": "AP Scalar Mk3",
+      "game_id": "apscalar_m3",
+      "description": "Современный пистолет-пулемет с улучшенными характеристиками."
+    },
+    {
+      "name": "Джеммер",
+      "game_id": "auto_flipper_1",
+      "description": "Компактный откалиброванный взломщик. Позволит угнать экспонат в <color=#{:palette(Target)}>гранд-отеле</color>. Работает бесшумно и быстро."
+    },
+    {
+      "name": "Карточка с Эйсоном Маккинли",
+      "game_id": "baseball_card_1",
+      "description": "Святой Грааль. Не дыши на нее и не загибай углы. Это моя пенсия."
+    },
+    {
+      "name": "Карточка с Трентом Карвером",
+      "game_id": "baseball_card_4",
+      "description": "Помню скандал с этим парнем. Грязная репутация всегда поднимает цену."
+    },
+    {
+      "name": "Карточка с Брэдли Сандерсоном",
+      "game_id": "baseball_card_5",
+      "description": "За этот кусок картона можно купить подержанную тачку."
+    },
+    {
+      "name": "Карточка с Харли Вангером",
+      "game_id": "baseball_card_6",
+      "description": "Для меня просто мусор. Для коллекционера - целое состояние."
+    },
+    {
+      "name": "Коллекционный нож Aeron",
+      "game_id": "blade_2",
+      "description": "Титан и понты. Слишком чистый для моей работы, лучше продам."
+    },
+    {
+      "name": "Коллекционный нож Streamline",
+      "game_id": "blade_3",
+      "description": "Ничего лишнего. Легко спрятать в сапоге. Хорошая вещь для продажи."
+    },
+    {
+      "name": "Коллекционный нож Cyber",
+      "game_id": "blade_4",
+      "description": "Углеродное лезвие. Выглядит как реквизит из фильма про будущее."
+    },
+    {
+      "name": "Коллекционный нож Nightfall",
+      "game_id": "blade_5",
+      "description": "Больше искусство, чем оружие. Я оставлю всё как есть, чтобы сорвать куш."
+    },
+    {
+      "name": "Коллекционный нож Shade",
+      "game_id": "blade_6",
+      "description": "Сразу видно - ручная работа. Такой нож ценят не только за остроту."
+    },
+    {
+      "name": "Склад",
+      "game_id": "broken_video_card",
+      "description": "Хозяйственная постройка для размещения большого количества дополнительных <color=#{:palette(Main)}>объектов хранения</color>."
+    },
+    {
+      "name": "Полевая горелка",
+      "game_id": "burner_2",
+      "description": "Стабильный огонь. Свою еду я разогрел, а этот аппарат легко превратить в быстрые деньги."
+    },
+    {
+      "name": "Высокоточная горелка",
+      "game_id": "burner_3",
+      "description": "Тонкая настройка пламени. Забьешь нежное сопло - потеряешь кучу денег. Лучше сразу продать мастерам."
+    },
+    {
+      "name": "Пакет с урожаем",
+      "game_id": "bush_drugs_1",
+      "description": "Плотный урожай с характерным запахом. Соблазн оставить его себе велик, но сбыть этот вес оптом куда выгоднее."
+    },
+    {
+      "name": "Пакет с урожаем",
+      "game_id": "bush_drugs_2",
+      "description": "Плотный урожай с характерным запахом. Соблазн оставить его себе велик, но сбыть этот вес оптом куда выгоднее."
+    },
+    {
+      "name": "Пакет с урожаем",
+      "game_id": "bush_drugs_3",
+      "description": "Плотный урожай с характерным запахом. Соблазн оставить его себе велик, но сбыть этот вес оптом куда выгоднее."
+    },
+    {
+      "name": "Камера CIRCUM 360",
+      "game_id": "camera_3",
+      "description": "Видит всё вокруг. Идеально, чтобы снять свое задержание в 4K."
+    },
+    {
+      "name": "Бюджетный видеорегистратор",
+      "game_id": "car_device_1",
+      "description": "Простой регистратор. Не самый лучший, но своих денег точно стоит."
+    },
+    {
+      "name": "Бюджетная магнитола",
+      "game_id": "car_device_2",
+      "description": "Обычная магнитола. Найдется тот, кому и такая пригодится."
+    },
+    {
+      "name": "Видеорегистратор",
+      "game_id": "car_device_3",
+      "description": "Выглядит вполне прилично. За такой можно выручить неплохие деньги."
+    },
+    {
+      "name": "Магнитола",
+      "game_id": "car_device_4",
+      "description": "Неплохая магнитола. Вещь ходовая, долго без хозяина не останется."
+    },
+    {
+      "name": "Премиальный видеорегистратор",
+      "game_id": "car_device_5",
+      "description": "Дорогая модель. Такие обычно покупают не для экономии."
+    },
+    {
+      "name": "Премиальная магнитола",
+      "game_id": "car_device_6",
+      "description": "Качественная магнитола. За хороший звук люди готовы платить."
+    },
+    {
+      "name": "Значок Royal Motors",
+      "game_id": "car_parts_1",
+      "description": "Часто вижу эти машины в городе, но этого значка - ни у кого."
+    },
+    {
+      "name": "Домкрат",
+      "game_id": "car_parts_3",
+      "description": "Тяжелая железка. Поднимает машину, но я пользуюсь подъемниками."
+    },
+    {
+      "name": "Руль",
+      "game_id": "car_parts_5",
+      "description": "Подушка безопасности, надеюсь, целая. Снять было непросто, но спрос на них бешеный."
+    },
+    {
+      "name": "Автомобильные свечи",
+      "game_id": "car_parts_6",
+      "description": "Небольшая деталь, без которой далеко не уедешь. Лишней точно не будет."
+    },
+    {
+      "name": "Автомобильный компрессор",
+      "game_id": "car_parts_7",
+      "description": "Добротный компрессор. Полезная вещь, и покупатель на нее быстро найдется."
+    },
+    {
+      "name": "Премиальный автомобильный компрессор",
+      "game_id": "car_parts_8",
+      "description": "Дорогая модель. Такие обычно берут один раз и надолго."
+    },
+    {
+      "name": "Тормозной диск",
+      "game_id": "car_suspension_1",
+      "description": "Повышает устойчивость и сцепление с дорогой. Установленная модификация <color=#{:palette(Main)}>не выпадает</color> при смерти."
+    },
+    {
+      "name": "Подвесные кубики",
+      "game_id": "car_trinket_1",
+      "description": "Обычное украшение для салона. Денег немного, зато с характером."
+    },
+    {
+      "name": "Ароматизатор",
+      "game_id": "car_trinket_2",
+      "description": "Пахнет лучше, чем большинство машин, в которых я бывал."
+    },
+    {
+      "name": "Автомобильный парфюм",
+      "game_id": "car_trinket_3",
+      "description": "Мелочь, но хорошие ароматы всегда в цене."
+    },
+    {
+      "name": "Брелок гонщика",
+      "game_id": "car_trinket_4",
+      "description": "Безделушка, но у фанатов автомобилей на такие вещи свой взгляд."
+    },
+    {
+      "name": "Бобблхед \"Питбуль\"",
+      "game_id": "car_trinket_5",
+      "description": "Смешная фигурка. Наверняка найдется тот, кто захочет поставить ее на панель."
+    },
+    {
+      "name": "Плюшевая игрушка на стекло",
+      "game_id": "car_trinket_6",
+      "description": "Кому-то нравится украшать салон такими игрушками. Не мне судить."
+    },
+    {
+      "name": "Грузовая ведомость",
+      "game_id": "cargo_manifest_1_cumulative",
+      "description": "Заполняется за каждую <color=#{:palette(Main)}>сдачу грузов</color> контрабандисту. При максимальном заполнении можно <color=#{:palette(Main)}>выгодно продать</color>."
+    },
+    {
+      "name": "Грузовая ведомость",
+      "game_id": "cargo_manifest_3_cumulative",
+      "description": "Заполняется за каждую <color=#{:palette(Main)}>сдачу грузов</color> контрабандисту. При максимальном заполнении можно <color=#{:palette(Main)}>выгодно продать</color>."
+    },
+    {
+      "name": "Плазменный резак для вскрытия грузов",
+      "game_id": "cargo_workbench_plasma_cutter_1",
+      "description": "Инструмент эффективного вскрытия грузов. Этим инструментом можно улучшить <color=#{:palette(Main)}>верстак для вскрытия грузов</color>."
+    },
+    {
+      "name": "CB45 Mk2",
+      "game_id": "cb45_m2",
+      "description": "Универсальный и надежный пистолет-пулемет."
+    },
+    {
+      "name": "CB45 Mk3",
+      "game_id": "cb45_m3",
+      "description": "Универсальный и надежный пистолет-пулемет."
+    },
+    {
+      "name": "Сигары Old Huba",
+      "game_id": "cigar_2",
+      "description": "Жирные, вонючие, дорогие. Пахнут властью и коррупцией."
+    },
+    {
+      "name": "Сигареты KeKe",
+      "game_id": "cigar_3",
+      "description": "Не самая дешевая привычка. Хорошо, что ее можно выгодно продать."
+    },
+    {
+      "name": "Комикс DIGITAL SOUL",
+      "game_id": "comics_3",
+      "description": "Про роботов с душой. А мне и правда доводилось встречать банкоматы человечнее некоторых людей."
+    },
+    {
+      "name": "Комикс KAIRO",
+      "game_id": "comics_4",
+      "description": "Социальная драма в картинках. Депрессивно, но коллекционеры платят."
+    },
+    {
+      "name": "Комикс MASK",
+      "game_id": "comics_5",
+      "description": "Редкий выпуск. В пленке. Если вскрою почитать - стоимость упадет вдвое."
+    },
+    {
+      "name": "Презервативы Zipit",
+      "game_id": "condoms_3",
+      "description": "Зашел - вышел. Для тех, кто вечно спешит."
+    },
+    {
+      "name": "Презервативы LUX",
+      "game_id": "condoms_4",
+      "description": "Тонкие, как намеки офицера на взятку. Почти не ощущаются."
+    },
+    {
+      "name": "Презервативы Playgirl",
+      "game_id": "condoms_5",
+      "description": "Лучшие из тех, что можно купить. Или украсть."
+    },
+    {
+      "name": "Консоль ZTX",
+      "game_id": "console_3",
+      "description": "Новое поколение. Дефицитный товар, геймеры за нее душу дьяволу продадут."
+    },
+    {
+      "name": "Консоль G-Cube",
+      "game_id": "console_4",
+      "description": "Лимитированная серия. Золотая жила для перекупов."
+    },
+    {
+      "name": "Консоль X-STATION VR",
+      "game_id": "console_5",
+      "description": "Шлем виртуальной реальности. Люди их надевают и забывают запирать двери. Удобно."
+    },
+    {
+      "name": "Склад",
+      "game_id": "crypto_farm_1",
+      "description": "Хозяйственная постройка для размещения большого количества дополнительных <color=#{:palette(Main)}>объектов хранения</color>."
+    },
+    {
+      "name": "Склад",
+      "game_id": "crypto_wallet",
+      "description": "Хозяйственная постройка для размещения большого количества дополнительных <color=#{:palette(Main)}>объектов хранения</color>."
+    },
+    {
+      "name": "Склад",
+      "game_id": "crypto_workbench_1",
+      "description": "Хозяйственная постройка для размещения большого количества дополнительных <color=#{:palette(Main)}>объектов хранения</color>."
+    },
+    {
+      "name": "Склад",
+      "game_id": "crypto_workbench_cooling_upgrade",
+      "description": "Хозяйственная постройка для размещения большого количества дополнительных <color=#{:palette(Main)}>объектов хранения</color>."
+    },
+    {
+      "name": "Склад",
+      "game_id": "crypto_workbench_speedup_upgrade",
+      "description": "Хозяйственная постройка для размещения большого количества дополнительных <color=#{:palette(Main)}>объектов хранения</color>."
+    },
+    {
+      "name": "Головоломка",
+      "game_id": "cube_1",
+      "description": "Классическая головоломка. Можно попытаться ее собрать, но вряд ли выйдет."
+    },
+    {
+      "name": "Головоломка",
+      "game_id": "cube_2",
+      "description": "Классическая головоломка. Можно попытаться ее собрать, но вряд ли выйдет."
+    },
+    {
+      "name": "Головоломка",
+      "game_id": "cube_3",
+      "description": "Классическая головоломка. Можно попытаться ее собрать, но вряд ли выйдет."
+    },
+    {
+      "name": "Головоломка",
+      "game_id": "cube_4",
+      "description": "Классическая головоломка. Можно попытаться ее собрать, но вряд ли выйдет."
+    },
+    {
+      "name": "Головоломка",
+      "game_id": "cube_5",
+      "description": "Классическая головоломка. Можно попытаться ее собрать, но вряд ли выйдет."
+    },
+    {
+      "name": "Декодер",
+      "game_id": "decoder_1",
+      "description": "Одноразовое устройство для взлома чужих построек. Снижает уровень защиты строения на величину взлома. Можно обменять в <color=#{:palette(Main)}>бартере</color>."
+    },
+    {
+      "name": "Декодер",
+      "game_id": "decoder_3",
+      "description": "Одноразовое устройство для взлома чужих построек. Снижает уровень защиты строения на величину взлома."
+    },
+    {
+      "name": "Экзотический инструмент",
+      "game_id": "dildo_1",
+      "description": "Странная штуковина. Выглядит опасно. Может, для пыток, а может, для чего еще."
+    },
+    {
+      "name": "DRM-14 Mk2",
+      "game_id": "drm14_m2",
+      "description": "Винтовка для стрельбы на большую дистанцию."
+    },
+    {
+      "name": "DRM-14 Mk3",
+      "game_id": "drm14_m3",
+      "description": "Винтовка для стрельбы на большую дистанцию."
+    },
+    {
+      "name": "Листовое сырье",
+      "game_id": "drugs_2",
+      "description": "Заваривается при температуре 420 градусов по Фаренгейту."
+    },
+    {
+      "name": "Колёса",
+      "game_id": "drugs_3",
+      "description": "Часто используют для роста уверенности в себе."
+    },
+    {
+      "name": "Сахар",
+      "game_id": "drugs_4",
+      "description": "Помогает подсластить криминальную жизнь."
+    },
+    {
+      "name": "Жевательные пластинки",
+      "game_id": "drugs_5",
+      "description": "Освежает сознание."
+    },
+    {
+      "name": "Леденцы",
+      "game_id": "drugs_6",
+      "description": "Леденцы, если уж решил пойти во все тяжкие."
+    },
+    {
+      "name": "Серьги AMINA",
+      "game_id": "earrings_2",
+      "description": "Эти камни стоят больше, чем моя жизнь. Главное - донести до скупщика живым."
+    },
+    {
+      "name": "Серьги CHIPARDI",
+      "game_id": "earrings_5",
+      "description": "Выглядят как заколки, но это платина. Белые камни холодные на ощупь."
+    },
+    {
+      "name": "Серьги MEKASSI",
+      "game_id": "earrings_6",
+      "description": "Две белые искры на концах. Не сокровища короны, но за них дадут хорошую цену."
+    },
+    {
+      "name": "Усиленный карабин",
+      "game_id": "equip_carbine_3",
+      "description": "Надежная фиксация, отличная цена. Продастся быстрее, чем защелкнется замок."
+    },
+    {
+      "name": "Тактический карабин",
+      "game_id": "equip_carbine_4",
+      "description": "Военный стандарт. Выдержит вес танка. Скупщики снаряжения платят за них безумные деньги."
+    },
+    {
+      "name": "Премиальный мультитул",
+      "game_id": "equipment_10",
+      "description": "Идеальная сборка. Слишком дорогая вещь для грязной работы. Уйдет за отличные деньги."
+    },
+    {
+      "name": "Коллекционный мультитул",
+      "game_id": "equipment_11",
+      "description": "Штучная работа. Сломаешь хоть деталь - потеряешь состояние. Срочно продать ценителям."
+    },
+    {
+      "name": "Переносной РЭБ",
+      "game_id": "equipment_12",
+      "description": "Не хочу знать, что эта штука умеет. Главное, что стоит она очень прилично."
+    },
+    {
+      "name": "Тепловизор",
+      "game_id": "equipment_3",
+      "description": "Видит тепло сквозь стены. Своих денег стоит, но для меня сложновато."
+    },
+    {
+      "name": "Мощный фонарик",
+      "game_id": "equipment_5",
+      "description": "Тяжелый металлический корпус. Жалко, батарейки сели."
+    },
+    {
+      "name": "Бронежилет для собаки",
+      "game_id": "equipment_6",
+      "description": "Кевлар для пса. В Лути-Бей даже собакам нужна защита."
+    },
+    {
+      "name": "Современный тактический бинокль",
+      "game_id": "equipment_7",
+      "description": "Элитная тактическая оптика. Бесполезна в бою, но отлично конвертируется в наличку у скупщиков краденого."
+    },
+    {
+      "name": "Тактический бинокль",
+      "game_id": "equipment_8",
+      "description": "Добротные линзы. Мне высматривать нечего, а наемники платят за них стабильно."
+    },
+    {
+      "name": "Тактический мультитул",
+      "game_id": "equipment_9",
+      "description": "Надежная сталь. Инструментов хватает, а лишняя наличка не помешает. Продать."
+    },
+    {
+      "name": "Меховые наручники",
+      "game_id": "fluffy_cuffs_1",
+      "description": "Игрушки для спальни. Мех мягкий, металл крепкий. Не спрашивай, откуда это у меня."
+    },
+    {
+      "name": "Мусор",
+      "game_id": "garbage_1",
+      "description": "Просто хлам. Место в кармане занимает, а денег не приносит."
+    },
+    {
+      "name": "Сломанная камера",
+      "game_id": "garbage_2",
+      "description": "Пришедшая в негодность камера, ничего ценного."
+    },
+    {
+      "name": "Сломанный ноутбук",
+      "game_id": "garbage_3",
+      "description": "Экран в паутине. Если жесткий диск сдох, то это просто поднос."
+    },
+    {
+      "name": "Сломанный тостер",
+      "game_id": "garbage_4",
+      "description": "Внутри что-то гремит. Хлеб не жарит, денег не стоит. Металлолом."
+    },
+    {
+      "name": "Бриллиант в кейсе",
+      "game_id": "gemstone_1",
+      "description": "Глядя на него, я вижу не преломление света, а свою безбедную жизнь на островах."
+    },
+    {
+      "name": "Топаз в кейсе",
+      "game_id": "gemstone_2",
+      "description": "Голубой лед. Не так дорого, как алмаз, но на жизнь хватит."
+    },
+    {
+      "name": "Рубин в кейсе",
+      "game_id": "gemstone_3",
+      "description": "Кроваво-красный камень. Выглядит зловеще, зато цена приятная."
+    },
+    {
+      "name": "Изумруд в кейсе",
+      "game_id": "gemstone_4",
+      "description": "Зеленый, как доллары. Мой любимый цвет."
+    },
+    {
+      "name": "Аметист в кейсе",
+      "game_id": "gemstone_5",
+      "description": "Фиолетовый камень. Мне бы пригодился, но лучше продам."
+    },
+    {
+      "name": "Видеокарта RG 7700",
+      "game_id": "graphics_card_2",
+      "description": "Выглядит как запчасть от звездолета. Украденная мной геймерская мечта."
+    },
+    {
+      "name": "Снаряд для гранатомета",
+      "game_id": "grenade_launcher_shell_1",
+      "description": "Снаряд для гранатомета с высокой разрушительной силой."
+    },
+    {
+      "name": "Профессиональная оружейная смазка",
+      "game_id": "gun_grease_2",
+      "description": "Мое оружие обойдется и без нее, а запечатанная банка легко превратится в наличку."
+    },
+    {
+      "name": "Синтетическая оружейная смазка",
+      "game_id": "gun_grease_3",
+      "description": "Элитный состав. Тратить такую на свой ствол жалко, лучше продать мастерам за отличную сумму."
+    },
+    {
+      "name": "Стандартный пороховой набор",
+      "game_id": "gunpowder_2",
+      "description": "Дает ровный выстрел без сюрпризов. Оружейники всегда дают за него хорошую цену."
+    },
+    {
+      "name": "Очищенный пороховой набор",
+      "game_id": "gunpowder_3",
+      "description": "Идеальная химия без примесей. Сбыть от греха подальше за огромный куш."
+    },
+    {
+      "name": "Фен SuperDryer",
+      "game_id": "hairdryer_1",
+      "description": "Чтобы впаривать горячий воздух за такие бабки, нужен талант."
+    },
+    {
+      "name": "Harris 500 Mk2",
+      "game_id": "harris500_m2",
+      "description": "Надежный классический дробовик."
+    },
+    {
+      "name": "Harris 500 Mk3",
+      "game_id": "harris500_m3",
+      "description": "Надежный классический дробовик."
+    },
+    {
+      "name": "Наушники DS MAX",
+      "game_id": "headphones_3",
+      "description": "Здоровые уши. Помогает не слышать звуки сирен. Выглядят дорого."
+    },
+    {
+      "name": "Наушники OMEGA",
+      "game_id": "headphones_4",
+      "description": "Сидят на голове так удобно, что даже снимать и продавать не хочется... но придется."
+    },
+    {
+      "name": "Наушники Beat Head",
+      "game_id": "headphones_5",
+      "description": "Премиум-класс. Кожа мягче, чем характер нашего офицера."
+    },
+    {
+      "name": "Журнал MONOLITH",
+      "game_id": "journal_3",
+      "description": "Тут пишут, что носить черное - это стиль. А для меня это рабочая форма."
+    },
+    {
+      "name": "Журнал VELVET RIOT",
+      "game_id": "journal_4",
+      "description": "На обложке вдова миллиардера. Или убийца. В нашем мире это часто одно и то же."
+    },
+    {
+      "name": "Журнал OPALINE",
+      "game_id": "journal_5",
+      "description": "Коллекционеры покупают этот редкий выпуск, только чтобы оставить на столе и заставить гостей завидовать. Легкие деньги."
+    },
+    {
+      "name": "JP-7 Mk2",
+      "game_id": "jp7_m2",
+      "description": "Легендарный пистолет-пулемет."
+    },
+    {
+      "name": "JP-7 Mk3",
+      "game_id": "jp7_m3",
+      "description": "Легендарный пистолет-пулемет."
+    },
+    {
+      "name": "KL-545 Mk2",
+      "game_id": "kl545_m2",
+      "description": "Надежная штурмовая винтовка."
+    },
+    {
+      "name": "KL-545 Mk3",
+      "game_id": "kl545_m3",
+      "description": "Надежная штурмовая винтовка."
+    },
+    {
+      "name": "Кристаллический порошок",
+      "game_id": "lab_crystal_1",
+      "description": "Мелкие осколки плотного кристаллического материала, полученные после механического дробления."
+    },
+    {
+      "name": "Кристаллический порошок",
+      "game_id": "lab_crystal_2",
+      "description": "Мелкие осколки плотного кристаллического материала, полученные после механического дробления."
+    },
+    {
+      "name": "Кристаллический порошок",
+      "game_id": "lab_crystal_3",
+      "description": "Мелкие осколки плотного кристаллического материала, полученные после механического дробления."
+    },
+    {
+      "name": "Ноутбук PD STATION",
+      "game_id": "laptop_4",
+      "description": "Тяжелый, бронированный, зашифрованный. Можно продать, взломать не получится."
+    },
+    {
+      "name": "Ноутбук MSR PRO",
+      "game_id": "laptop_5",
+      "description": "Светится как новогодняя елка. Шустрый, тяжелый, дорогой."
+    },
+    {
+      "name": "Ноутбук SUS VILO",
+      "game_id": "laptop_6",
+      "description": "Стильный корпус. Выглядит шустрым. Надеюсь, данные стираются тоже быстро."
+    },
+    {
+      "name": "LBR-44 Mk2",
+      "game_id": "lbr44_m2",
+      "description": "Мощный шестизарядный револьвер."
+    },
+    {
+      "name": "Зажигалка RedOlive",
+      "game_id": "lighter_3",
+      "description": "Красная, броская. Легко потерять, легко найти нового владельца."
+    },
+    {
+      "name": "Зажигалка Clipper",
+      "game_id": "lighter_4",
+      "description": "Классика с оттиском. Можно использовать вместо валюты."
+    },
+    {
+      "name": "Зажигалка SkyDragon",
+      "game_id": "lighter_5",
+      "description": "Дракон выдыхает огонь. Пошлость жуткая, но богатым детям нравится."
+    },
+    {
+      "name": "LM 249 Mk2",
+      "game_id": "lmg_m2",
+      "description": "Легкий штурмовой пулемет с высокой огневой мощью."
+    },
+    {
+      "name": "Лотерейный билет",
+      "game_id": "lottery_ticket_1",
+      "description": "Дешевый лотерейный билет. Может оказаться мусором или билетом в новую жизнь."
+    },
+    {
+      "name": "Лотерейный билет",
+      "game_id": "lottery_ticket_high_1",
+      "description": "Не каждый день удача сама прыгает тебе в руки. Главное - не сглазить."
+    },
+    {
+      "name": "Лотерейный билет",
+      "game_id": "lottery_ticket_jackpot_1",
+      "description": "Не каждый день удача сама прыгает тебе в руки. Главное - не сглазить."
+    },
+    {
+      "name": "Лотерейный билет",
+      "game_id": "lottery_ticket_low_1",
+      "description": "Не каждый день удача сама прыгает тебе в руки. Главное - не сглазить."
+    },
+    {
+      "name": "Лотерейный билет",
+      "game_id": "lottery_ticket_medium_1",
+      "description": "Не каждый день удача сама прыгает тебе в руки. Главное - не сглазить."
+    },
+    {
+      "name": "MC-10 Mk2",
+      "game_id": "mc10_m2",
+      "description": "Пистолет-пулемет для ближней дистанции."
+    },
+    {
+      "name": "MC-10 Mk3",
+      "game_id": "mc10_m3",
+      "description": "Пистолет-пулемет для ближней дистанции."
+    },
+    {
+      "name": "Ожерелье MAFFI",
+      "game_id": "necklace_3",
+      "description": "Специфичный товар, но своего покупателя найдет быстро."
+    },
+    {
+      "name": "Ожерелье REFIER",
+      "game_id": "necklace_4",
+      "description": "На самом деле камни мелкие, но если не присматриваться - сойдет за сокровище."
+    },
+    {
+      "name": "Ожерелье PENARAI",
+      "game_id": "necklace_6",
+      "description": "Бриллианты слепят глаза. На такой ошейник можно купить полгорода."
+    },
+    {
+      "name": "ORDR-12 Mk2",
+      "game_id": "ordr12_m2",
+      "description": "Скорострельный дробовик."
+    },
+    {
+      "name": "ORDR-12 Mk3",
+      "game_id": "ordr12_m3",
+      "description": "Скорострельный дробовик."
+    },
+    {
+      "name": "Пакет с посылкой",
+      "game_id": "package_1",
+      "description": "Курьерский пакет, плотно запечатан. Стоит вскрыть и проверить, есть ли внутри что-то ценное."
+    },
+    {
+      "name": "PDW90 Mk1",
+      "game_id": "pdw90_m1",
+      "description": "Точный и скорострельный пистолет-пулемет."
+    },
+    {
+      "name": "PDW90 Mk2",
+      "game_id": "pdw90_m2",
+      "description": "Точный и скорострельный пистолет-пулемет."
+    },
+    {
+      "name": "PDW90 Mk3",
+      "game_id": "pdw90_m3",
+      "description": "Точный и скорострельный пистолет-пулемет."
+    },
+    {
+      "name": "Парфюм INFINITY",
+      "game_id": "perfume_1",
+      "description": "Запах денег и вечеринок. Стойкий, зараза. Если разобьется в сумке - я задохнусь."
+    },
+    {
+      "name": "Парфюм FLERS",
+      "game_id": "perfume_2",
+      "description": "Резкий запах. Шлейф такой, что можно выследить владельца за километр."
+    },
+    {
+      "name": "Парфюм TRIO",
+      "game_id": "perfume_3",
+      "description": "Классический аромат. Таким пахнут банкиры, которых я обычно граблю."
+    },
+    {
+      "name": "Парфюм LACROCAS",
+      "game_id": "perfume_4",
+      "description": "Цветочная вода для нежных натур. Стоит дорого, флакон тяжелый."
+    },
+    {
+      "name": "Парфюм DUCHEE",
+      "game_id": "perfume_5",
+      "description": "Элегантный флакон. Внутри спирт и отдушки, снаружи - аура роскоши."
+    },
+    {
+      "name": "Микроскоп",
+      "game_id": "pharma_tools_2",
+      "description": "Помогает отличить стиральный порошок от товара высшего сорта."
+    },
+    {
+      "name": "Глюкометр",
+      "game_id": "pharma_tools_3",
+      "description": "Колоть пальцы и смотреть на сахар. Скука смертная."
+    },
+    {
+      "name": "Бинокуляры",
+      "game_id": "pharma_tools_5",
+      "description": "Оптика для стоматологов. Или для наблюдения за охраной магазина."
+    },
+    {
+      "name": "Офтальмоскоп",
+      "game_id": "pharma_tools_6",
+      "description": "Медицинская штука. Вряд ли дешевая, если выглядит настолько профессионально."
+    },
+    {
+      "name": "Смартфон P-Verse",
+      "game_id": "phone_3",
+      "description": "Рабочая лошадка. Батарею держит долго, даже дождется меня с тюрьмы."
+    },
+    {
+      "name": "Смартфон Flip Ring",
+      "game_id": "phone_4",
+      "description": "Гнется пополам. Технология ради понтов. Экран треснет от косого взгляда."
+    },
+    {
+      "name": "Телефон Tuver",
+      "game_id": "phone_5",
+      "description": "Сплав металла высокого качества и амбиций. Телефон для тех, кто не звонит сам."
+    },
+    {
+      "name": "Картина",
+      "game_id": "picture_tube_1",
+      "description": "Настоящая мазня на холсте. Я в искусстве ноль, но подпись в углу чего-то стоит."
+    },
+    {
+      "name": "Картина",
+      "game_id": "picture_tube_2",
+      "description": "Настоящая мазня на холсте. Я в искусстве ноль, но подпись в углу чего-то стоит."
+    },
+    {
+      "name": "Картина",
+      "game_id": "picture_tube_3",
+      "description": "Настоящая мазня на холсте. Я в искусстве ноль, но подпись в углу чего-то стоит."
+    },
+    {
+      "name": "Документ на участок",
+      "game_id": "plot_sale_1",
+      "description": "Позволяет арендовать <color=#{:palette(Main)}>земельный участок</color> в поселении <color=#{:palette(Main)}>района 1-го уровня</color> и получить доступ к новым товарам.\n\nАрендовать участок можно только в поселении, у которого есть владелец."
+    },
+    {
+      "name": "Колода карт Poker Powerplay",
+      "game_id": "poker_cards_1",
+      "description": "Скользкие карты. Идеальны, чтобы сдать себе туза из рукава."
+    },
+    {
+      "name": "Колода карт Mystic Card Chronicles",
+      "game_id": "poker_cards_2",
+      "description": "Рубашка отвлекает внимание. Пока кто-то разглядывает узоры, ты чистишь его карманы."
+    },
+    {
+      "name": "Колода карт Ace's Dominion",
+      "game_id": "poker_cards_3",
+      "description": "Потрепанные карты. Ими играли в каждом подвале города. Крапленые, наверное."
+    },
+    {
+      "name": "Колода карт Bad Habit",
+      "game_id": "poker_cards_4",
+      "description": "Карты для неудачников. Если видишь такие на столе - держи руку на кобуре."
+    },
+    {
+      "name": "Колода карт Joker's Choice",
+      "game_id": "poker_cards_5",
+      "description": "Мечта коллекционера. Если колода запечатана, она стоит дороже, чем банк в игре."
+    },
+    {
+      "name": "Жетон сержанта",
+      "game_id": "police_badge_1",
+      "description": "На службе в полиции позволяет единожды выбрать экипировку сержанта. Можно обменять в <color=#{:palette(Main)}>бартере</color>."
+    },
+    {
+      "name": "Улики",
+      "game_id": "police_evidence_1",
+      "description": "Можно обменять в <color=#{:palette(Main)}>бартере</color> на ID-карту, открывающую <color=#{:palette(Target)}>арсенал</color> полицейского участка."
+    },
+    {
+      "name": "RC 5.56 Mk2",
+      "game_id": "rc556_m2",
+      "description": "Классическая штурмовая винтовка."
+    },
+    {
+      "name": "RC 5.56 Mk3",
+      "game_id": "rc556_m3",
+      "description": "Классическая штурмовая винтовка."
+    },
+    {
+      "name": "Кольцо GUDDI",
+      "game_id": "ring_3",
+      "description": "Массивный перстень. Таким при желании можно выбить зубы. Камень дорогой."
+    },
+    {
+      "name": "Кольцо MAFFI",
+      "game_id": "ring_5",
+      "description": "Звериный оскал из золота. Для тех, кто хочет казаться опасным."
+    },
+    {
+      "name": "Кольцо PRIDE",
+      "game_id": "ring_6",
+      "description": "Камень отливает розовым, как дорогое шампанское. Стоит столько, что мне страшно держать его в руках."
+    },
+    {
+      "name": "Кольцо WISH",
+      "game_id": "ring_7",
+      "description": "Такое кольцо увидишь не каждый день. Даже страшно представить, сколько за него заплатят."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_1",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>оружейном магазине</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_10",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>минимаркете</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_11",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>минимаркете</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_12",
+      "description": "Открывает запертую комнату в одном из <color=#{:palette(Target)}>отелей</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_13",
+      "description": "Открывает VIP комнату в <color=#{:palette(Target)}>стрип-клубе</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_2",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>магазине экипировки</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_3",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>оружейном магазине</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_4",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>магазине экипировки</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_5",
+      "description": "Открывает <color=#{:palette(Main)}>левую</color> скрытую комнату на <color=#{:palette(Target)}>заправке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_6",
+      "description": "Открывает <color=#{:palette(Main)}>правую</color> скрытую комнату на <color=#{:palette(Target)}>заправке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_7",
+      "description": "Открывает запертую комнату в одном из <color=#{:palette(Target)}>коттеджей</color> района <color=#{:palette(Target)}>Лорейн-Хиллз</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_8",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>аптеке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_9",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>аптеке</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Фишки для покера",
+      "game_id": "roulette_chip_1",
+      "description": "Используются для игры в казино. Можно обналичить в <color=#{:palette(Target)}>мотеле Ленни</color>."
+    },
+    {
+      "name": "Фишки для покера",
+      "game_id": "roulette_chip_100",
+      "description": "Используются для игры в казино. Можно обналичить в <color=#{:palette(Target)}>мотеле Ленни</color>."
+    },
+    {
+      "name": "Фишки для покера",
+      "game_id": "roulette_chip_25",
+      "description": "Используются для игры в казино. Можно обналичить в <color=#{:palette(Target)}>мотеле Ленни</color>."
+    },
+    {
+      "name": "Фишки для покера",
+      "game_id": "roulette_chip_5",
+      "description": "Используются для игры в казино. Можно обналичить в <color=#{:palette(Target)}>мотеле Ленни</color>."
+    },
+    {
+      "name": "Фишки для покера",
+      "game_id": "roulette_chip_50",
+      "description": "Используются для игры в казино. Можно обналичить в <color=#{:palette(Target)}>мотеле Ленни</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_1",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>отеле Seasons</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_10",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>аптеке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_11",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>кафе</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_12",
+      "description": "Открывает сейф на <color=#{:palette(Target)}>заправке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_13",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>магазине электроники</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_14",
+      "description": "Открывает сейф в одном из <color=#{:palette(Target)}>коттеджей</color> района <color=#{:palette(Target)}>Лорейн-Хиллз</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_2",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>отеле Reef</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_3",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>стрип-клубе</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_4",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>минимаркете</color> на севере района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_5",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>аптеке</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_6",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>кафе</color> на пирсе района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_7",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>особняке</color> района <color=#{:palette(Target)}>Лорейн-Хиллз</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_8",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>минимаркете</color> в центре района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_9",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>минимаркете</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Документ на поселение",
+      "game_id": "settlement_sale_1",
+      "description": "Позволяет купить <color=#{:palette(Main)}>поселение</color> в <color=#{:palette(Main)}>районе 1-го уровня</color>.\r\n\r\nВладелец может <color=#{:palette(Main)}>бесплатно заселиться</color> в нем, сдавать участки другим игрокам и получать налоги с их финансовых операций."
+    },
+    {
+      "name": "SR Reaper Mk2",
+      "game_id": "srreaper_m2",
+      "description": "Экзотическая военная винтовка."
+    },
+    {
+      "name": "SR Reaper Mk3",
+      "game_id": "srreaper_m3",
+      "description": "Экзотическая военная винтовка."
+    },
+    {
+      "name": "STAR-H Mk2",
+      "game_id": "starh_m2",
+      "description": "Мощная штурмовая винтовка."
+    },
+    {
+      "name": "STAR-H Mk3",
+      "game_id": "starh_m3",
+      "description": "Мощная штурмовая винтовка."
+    },
+    {
+      "name": "TAG-12K Mk2",
+      "game_id": "tag12k_m2",
+      "description": "Автоматический дробовик с магазином."
+    },
+    {
+      "name": "TAG-12K Mk3",
+      "game_id": "tag12k_m3",
+      "description": "Автоматический дробовик с магазином."
+    },
+    {
+      "name": "Тостер Goodhouse",
+      "game_id": "toaster_1",
+      "description": "Дешевый пластик. Хлеб выпрыгивает раньше времени. Стоит копейки."
+    },
+    {
+      "name": "Игрушка CollectiToy #1",
+      "game_id": "toy_1",
+      "description": "Стояла на полке и смотрела, как я граблю квартиру. Теперь посмотрит на скупщика."
+    },
+    {
+      "name": "Игрушка CollectiToy #2",
+      "game_id": "toy_2",
+      "description": "Красная серия. Отличается только цветом пластика и завышенной ценой."
+    },
+    {
+      "name": "Игрушка CollectiToy #3",
+      "game_id": "toy_3",
+      "description": "Черно-белый вариант. Типа \"нуар\". Выглядит депрессивно, стоит дорого."
+    },
+    {
+      "name": "Игрушка CollectiToy #4",
+      "game_id": "toy_4",
+      "description": "Пацан в кепке. Редкий тираж. Гики готовы убить за эту пластмассу."
+    },
+    {
+      "name": "CollectiToy x TA",
+      "game_id": "toy_5",
+      "description": "Коллаборация с модным дизайнером. Он просто налепил свое имя, и стоимость взлетела до небес."
+    },
+    {
+      "name": "Легкий бронежилет МК2",
+      "game_id": "vest1_m2",
+      "description": "Модифицированный легкий бронежилет с умеренным уровнем защиты."
+    },
+    {
+      "name": "Средний бронежилет МК2",
+      "game_id": "vest2_m2",
+      "description": "Модифицированный средний бронежилет с умеренным уровнем защиты."
+    },
+    {
+      "name": "Средний бронежилет МК3",
+      "game_id": "vest2_m3",
+      "description": "Модифицированный средний бронежилет с максимальным уровнем защиты."
+    },
+    {
+      "name": "Тяжелый бронежилет МК2",
+      "game_id": "vest3_m2",
+      "description": "Модифицированный тяжелый бронежилет с умеренным уровнем защиты."
+    },
+    {
+      "name": "Тяжелый бронежилет МК3",
+      "game_id": "vest3_m3",
+      "description": "Модифицированный тяжелый бронежилет с максимальным уровнем защиты."
+    },
+    {
+      "name": "Штурмовой бронежилет МК2",
+      "game_id": "vest4_m2",
+      "description": "Модифицированный штурмовой бронежилет с умеренным уровнем защиты."
+    },
+    {
+      "name": "Штурмовой бронежилет МК3",
+      "game_id": "vest4_m3",
+      "description": "Модифицированный штурмовой бронежилет с максимальным уровнем защиты."
+    },
+    {
+      "name": "Бронежилет \"Бастион\"",
+      "game_id": "vest5_m1",
+      "description": "Продвинутый штурмовой бронежилет для затяжных боевых операций."
+    },
+    {
+      "name": "Флакон с жидкостью",
+      "game_id": "vial_2",
+      "description": "Лекарство для богатых. Спасает жизнь, если у тебя есть деньги."
+    },
+    {
+      "name": "Флакон с редким лекарством",
+      "game_id": "vial_4",
+      "description": "Мутная жижа. Может лекарство, может яд. Проверять на себе не буду."
+    },
+    {
+      "name": "Косметическая ампула",
+      "game_id": "vial_5",
+      "description": "Жижа для лица. Стоит бешеных денег, а по сути - просто вода с жиром."
+    },
+    {
+      "name": "Лекарственная ампула",
+      "game_id": "vial_6",
+      "description": "На ценнике много нулей. Значит, кому-то это очень нужно."
+    },
+    {
+      "name": "Флакон с запрещенным лекарством",
+      "game_id": "vial_7",
+      "description": "Запрещено в половине стран. Редкая, но опасная находка."
+    },
+    {
+      "name": "Склад",
+      "game_id": "video_card_1",
+      "description": "Хозяйственная постройка для размещения большого количества дополнительных <color=#{:palette(Main)}>объектов хранения</color>."
+    },
+    {
+      "name": "Платиновый диск",
+      "game_id": "vinyl_1",
+      "description": "Кто-то пахал ради этого диска всю жизнь, а мне всего лишь надо было выбить окно. Жизнь несправедлива, правда?"
+    },
+    {
+      "name": "Золотой диск",
+      "game_id": "vinyl_2",
+      "description": "Чье-то эго в дорогой рамке под стеклом. На стенку вешать не буду, лучше найду коллекционера с лишними деньгами."
+    },
+    {
+      "name": "Ключ-карта",
+      "game_id": "vip_key_1",
+      "description": "Открывает тайный склад <color=#{:palette(Target)}>гранд-отеля</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ-карта",
+      "game_id": "vip_key_2",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>полицейском участке</color>."
+    },
+    {
+      "name": "Ключ-карта",
+      "game_id": "vip_key_3",
+      "description": "Открывает запертую комнату в одном из <color=#{:palette(Target)}>коттеджей</color> района <color=#{:palette(Target)}>Лорейн-Хиллз</color>."
+    },
+    {
+      "name": "Ключ-карта",
+      "game_id": "vip_key_6",
+      "description": "Открывает хранилище в <color=#{:palette(Target)}>галерее</color>."
+    },
+    {
+      "name": "Vulture 50 Mk2",
+      "game_id": "vulture50_m2",
+      "description": "Культовый самозарядный пистолет."
+    },
+    {
+      "name": "Фермерский забор",
+      "game_id": "wall_1",
+      "description": "Низкий забор для обозначения границ территории."
+    },
+    {
+      "name": "Утерянный кошелек",
+      "game_id": "wallet_1",
+      "description": "Обычный кошелек. Стоит обыскать его, может, внутри есть что-то ценное."
+    },
+    {
+      "name": "Часы NURDAN",
+      "game_id": "watch_4",
+      "description": "Скелетоны. Видно все шестеренки. Красиво крутятся, дорого стоят."
+    },
+    {
+      "name": "Часы POLEX",
+      "game_id": "watch_5",
+      "description": "Такие часы не покупают, их передают по наследству... или крадут у тех, кто зазевался."
+    },
+    {
+      "name": "Часы PENARAI",
+      "game_id": "watch_6",
+      "description": "Розовое золото. Выглядят по-пижонски, зато весят прилично. Скупщики такое любят."
+    },
+    {
+      "name": "Профессиональный набор для чистки оружия",
+      "game_id": "weapon_cleaning_2",
+      "description": "Целый чемодан инструментов. Для тех, кто любит свою пушку больше, чем маму."
+    },
+    {
+      "name": "Тактический набор для чистки оружия",
+      "game_id": "weapon_cleaning_3",
+      "description": "Профессиональная химия и щетки. Вскроешь - потеряешь в цене. Продать целиком."
+    },
+    {
+      "name": "Гироскоп",
+      "game_id": "weapon_trinket_1",
+      "description": "Понятия не имею, для чего он нужен. Но выглядит слишком дорогим, чтобы быть бесполезным."
+    },
+    {
+      "name": "Баллистический хронограф",
+      "game_id": "weapon_trinket_2",
+      "description": "Игрушка для профессиональных оружейников. Мне замерять скорость пуль ни к чему, а скупщик щедро заплатит."
+    },
+    {
+      "name": "Пульт управления дроном",
+      "game_id": "weapon_trinket_3",
+      "description": "Зашифрованный пульт от элитного беспилотника. Без самого аппарата бесполезен, но отвалят за него состояние."
+    },
+    {
+      "name": "Современный компас",
+      "game_id": "weapon_trinket_4",
+      "description": "С такой штукой точно не заблудишься. Да и покупатель на нее наверняка найдется."
+    },
+    {
+      "name": "Тактический сенсор",
+      "game_id": "weapon_trinket_5",
+      "description": "Похоже на военное оборудование. Такие вещи редко стоят дешево."
+    },
+    {
+      "name": "Хронограф",
+      "game_id": "weapon_trinket_6",
+      "description": "Красивые часы никогда не выходят из моды. Особенно такие."
+    },
+    {
+      "name": "Оружейный микрокомпьютер",
+      "game_id": "weapon_trinket_7",
+      "description": "Слишком сложная штука для меня. Но все эти микросхемы наверняка оправдывают цену."
+    },
+    {
+      "name": "Ключи от яхты",
+      "game_id": "yacht_key_1",
+      "description": "Доступ к плавучему дворцу. Мне яхту не угнать, но те, кто могут, отвалят за этот ключ целое состояние."
+    }
+  ]
+}
