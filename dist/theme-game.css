@@ -1,0 +1,132 @@
+/* ROB RUN Atlas v3.0 — game UI theme layer (loaded after style.css) */
+:root{
+  --bg:#1c1c1b;--panel:#161615;--card:#262625;--border:#383735;--text:#f1f0ec;--muted:#9a9894;
+  --accent:#c6f432;--accent-ink:#121210;
+  --display:"Fira Sans Extra Condensed","Roboto Condensed","Arial Narrow",sans-serif;
+  --font:"Roboto Condensed","Arial Narrow",Arial,sans-serif;
+  --skew:-8deg;
+}
+*{border-radius:0!important}
+.category .category-dot,.switch,.switch:after,.status-dot,.calibration-badge>span,.calibration-badge b,
+.loading>span,.rarity-label:before,.sell-info,.route-steps>li:before,.journey-dot{border-radius:50%!important}
+body{font-family:var(--font);font-weight:500;letter-spacing:.1px;background:var(--bg)}
+::selection{background:var(--accent);color:var(--accent-ink)}
+
+/* ---- display type: condensed heavy italic caps ---- */
+h1,h2,h3,.brand strong,.section-title,.modal-heading h2,.drawer-header h2,.building-header h2,
+.primary-button,.secondary-button,.map-modes button,.catalog-button>span:nth-child(2),
+.filter-heading,.group-label,.list-header,.progress-head,.map-list-button,.zoom-level,.visible-count b{
+  font-family:var(--display);font-style:italic;text-transform:uppercase;letter-spacing:.3px;font-weight:800
+}
+h1,h2,.drawer-header h2,.modal-heading h2,.building-header h2{font-weight:900;letter-spacing:0;line-height:1.02}
+.eyebrow{font-family:var(--display);font-style:italic;font-weight:700;letter-spacing:2px;color:#8f8d89}
+
+/* ---- sidebar: dark menu column with ghost watermark ---- */
+.sidebar{background:linear-gradient(180deg,#121211 0%,#181817 100%);border-right:1px solid #2b2a28;position:relative;overflow:hidden}
+.sidebar:before{content:"АТЛАС";position:absolute;left:-18px;top:120px;font:italic 900 170px/0.85 var(--display);color:#ffffff07;
+  writing-mode:vertical-rl;transform:rotate(180deg);pointer-events:none;letter-spacing:-4px}
+.sidebar>*{position:relative}
+.brand{height:auto;padding:26px 24px 22px;border-bottom:0}
+.brand-mark{background:var(--accent);color:var(--accent-ink);font-family:var(--display);font-style:italic;font-weight:900;transform:skew(var(--skew))}
+.brand strong{font-size:34px;font-weight:900;letter-spacing:0;color:var(--accent)}
+.brand-dot{color:var(--text)}
+.brand .eyebrow{color:#d8d6d0;letter-spacing:4px;font-size:11px;margin-top:4px}
+.section-title{font-size:20px;color:var(--text);letter-spacing:.4px}
+.edition{font-family:var(--display);font-style:italic;font-weight:800;font-size:10px;letter-spacing:1px;background:var(--accent);color:var(--accent-ink);border:0;padding:3px 7px;transform:skew(var(--skew))}
+
+/* ---- tab strip like the clan menu (КЛАН / КОНФЛИКТЫ / ...) ---- */
+.map-modes{background:transparent;border:0;padding:0;gap:6px}
+.map-modes button{background:#0f0f0e;color:var(--text);font-size:14px;padding:10px 4px 9px;min-width:0;transform:skew(var(--skew));transition:background .12s,color .12s}
+.map-modes button>*{display:inline-block}
+.map-modes button:hover{background:#2a2927}
+.map-modes button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
+.map-modes span{font-size:11px;opacity:.65;margin-left:3px}
+
+/* ---- inputs ---- */
+.search-box,select,.icon-button,.catalog-search,.recipe-search{background:#0f0f0e;border:1px solid #2f2e2c}
+.search-box{height:44px}
+.search-box:focus-within,select:focus,select:hover{border-color:var(--accent)}
+select{font-family:var(--font);font-weight:600;font-size:13px;color:#e6e4df}
+select option{background:#1b1b1a}
+.icon-button:hover{border-color:var(--accent);color:var(--accent)}
+.search-box kbd{border-color:#3d3c39;color:#8d8b87}
+
+/* ---- buttons: skewed slabs ---- */
+.primary-button,.secondary-button{transform:skew(var(--skew));font-size:15px;padding:11px 18px}
+.primary-button{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.primary-button:hover{background:#d7ff5e}
+.secondary-button{background:#0f0f0e;border:1px solid #33322f;color:var(--text)}
+.secondary-button:hover{background:#2a2927;border-color:#4a4845}
+.drawer-footer>.primary-button.done{background:#262625;color:var(--accent);border-color:var(--accent)}
+
+/* ---- menu-style list rows (АВТОРИТЕТ / ПОСТАВКИ / ...) ---- */
+.category,.building-row,.point-row{background:#232322;border-left:3px solid transparent}
+.category:hover,.building-row:hover,.point-row:hover{background:#2d2c2a;border-left-color:var(--accent)}
+.category[aria-pressed=true]{border-color:transparent;border-left-color:var(--accent)}
+.category-name{font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;font-size:15px;letter-spacing:.3px}
+.catalog-button{background:#0f0f0e;border:1px solid #2f2e2c;border-left:3px solid var(--accent)}
+.catalog-button:hover{background:#232322;border-color:var(--accent)}
+.catalog-button>span:nth-child(2){font-size:17px}
+.catalog-symbol{color:var(--accent)}
+
+/* ---- progress / switch ---- */
+.progress-track{height:6px;background:#2c2b29;transform:skew(var(--skew))}
+.switch{background:#33322f}
+.switch-row input:checked+.switch,.switch-row input:checked~.switch{background:var(--accent)}
+
+/* ---- map overlays: flat dark plates ---- */
+.map-area{background:#559aa2}
+.map-heading{background:#121211eb;border:0;border-left:4px solid var(--accent);box-shadow:0 10px 40px #0007;padding:12px 20px}
+.map-heading h1{font-size:34px;margin-top:0}
+.map-heading .eyebrow{color:var(--accent);font-size:10px;letter-spacing:3px}
+.visible-count b{color:var(--accent);font-size:26px;font-weight:900}
+.map-divider{background:#3a3936}
+.map-controls{background:#121211eb;border:0;box-shadow:0 10px 30px #0006}
+.map-controls button:hover,.map-controls button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
+.map-help,.zoom-level,.map-list-button{background:#121211eb;border:0;color:#d5d3ce}
+.map-help{font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+.zoom-level{font-size:14px;color:var(--accent)}
+.map-list-button{font-size:14px;transform:skew(var(--skew))}
+.map-list-button:hover{background:var(--accent);color:var(--accent-ink)}
+.tooltip{background:#121211f5;border:0;border-left:3px solid var(--accent);box-shadow:0 8px 30px #0008}
+.toast{background:#121211f5;border:0;border-left:4px solid var(--accent);font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;letter-spacing:.4px}
+
+/* ---- drawer & modals: game window panels ---- */
+.drawer{background:#1a1a19f7;border:0;border-top:4px solid var(--accent);box-shadow:0 20px 70px #000a}
+.drawer-header{border-bottom:1px solid #2f2e2c;background:linear-gradient(180deg,#232322,#1a1a19)}
+.drawer-header h2{font-size:30px}
+.building-header h2{font-size:32px}
+.drawer-category{font-family:var(--display);font-style:italic;font-weight:700;text-transform:uppercase;font-size:12px;letter-spacing:1px}
+.building-type{background:#0f0f0e;border-color:#2f2e2c;font-weight:600}
+.drawer-footer{border-top:1px solid #2f2e2c;background:#151514}
+.modal{background:#1a1a19;border:0;border-top:4px solid var(--accent);box-shadow:0 30px 120px #000c}
+.modal::backdrop{background:#0b0b0acc;backdrop-filter:blur(4px) grayscale(1)}
+.modal-heading{border-bottom:1px solid #2f2e2c;background:linear-gradient(180deg,#232322,#1a1a19)}
+.modal-heading h2{font-size:34px}
+.modal-heading .icon-button:hover{color:var(--accent)}
+.prose{color:#cfcdc8}
+.prose strong{color:var(--text)}
+
+/* ---- loot tiles: dark cards, rarity stripe ---- */
+.loot-tile{background:#121211;border:1px solid #2b2a28;border-bottom:3px solid var(--rare,#77746f)}
+.loot-tile:hover{background:#232322;border-color:var(--rare,#9a9893)}
+.loot-tile strong{font-family:var(--display);font-style:italic;font-weight:700;text-transform:uppercase;letter-spacing:.2px;font-size:13px}
+.catalog-modal .modal-heading h2{font-size:38px}
+
+/* ---- stat diamonds (like clan screen) for counts ---- */
+.visible-count{display:flex;align-items:center;gap:10px}
+.visible-count b{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;position:relative;z-index:0;font-style:normal}
+.visible-count b:before{content:"";position:absolute;inset:8px;border:2px solid #6d6b67;transform:rotate(45deg);z-index:-1}
+
+/* ---- sidebar footer ---- */
+.sidebar-footer{border-top:1px solid #2b2a28;font-family:var(--display);font-style:italic;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.text-button:hover,a:hover{color:var(--accent)}
+
+/* ---- loading screen ---- */
+.loading{background:#1c1c1b;font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;font-size:18px;letter-spacing:.5px}
+
+@media(max-width:780px){.sidebar:before{font-size:120px}}
+/* v3.0: points & catalog removed — locations only */
+.removed,#runControls,#catalogButton,#pointFilters,.map-modes,#highlightChip,
+[data-acquisition-point],.point-row,.acquisition-locations,.route-map-button,[data-item-map]{display:none!important}
+.dependency-locations{display:none!important}
