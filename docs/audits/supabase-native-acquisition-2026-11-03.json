@@ -1,0 +1,808 @@
+{
+  "fields": [
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchResultWeightsUpgradeSlotTypeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "baseSlotsCount"
+    },
+    {
+      "kind": "Models.References.CargoChargeWorkbench.CargoChargeWorkbenchDescription",
+      "type": "System.Boolean",
+      "field": "canCollectChargedCargoReward"
+    },
+    {
+      "kind": "Models.References.CargoChargeWorkbench.CargoChargeWorkbenchDescription",
+      "type": "System.Int64",
+      "field": "collectChargedCargoRewardTime"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchAdditionalSlotUpgradeDescription",
+      "type": "System.Int32",
+      "field": "additionalSlots"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchAdditionalSlotUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchAdditionalSlotUpgradeDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "inventoryItemFunc"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "additionalSlotUpgradeSlotsCount"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "Models.References.Colliders.CollidersDescription",
+      "field": "colliders"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "index"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "Models.References.Interact.InteractDescription",
+      "field": "interactDescription"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Numerics.Vector3",
+      "field": "interactPoint"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "inventoryItemFunc"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Collections.Generic.IReadOnlyList`1<Models.MathUtils.OBB>",
+      "field": "obbs"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Numerics.Vector3",
+      "field": "spawnLootPoint"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "speedupUpgradeSlotsCount"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchDescription",
+      "type": "System.Func`1<Models.References.CargoOpenWorkbench.CargoWorkbenchTypeDescription>",
+      "field": "workbenchTypeFunc"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchSpeedupUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchSpeedupUpgradeDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "inventoryItemFunc"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchSpeedupUpgradeDescription",
+      "type": "System.Single",
+      "field": "speedupPercent"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchUpgradeDescription",
+      "type": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchAdditionalSlotUpgradeDescription",
+      "field": "additionalSlot"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchUpgradeDescription",
+      "type": "Models.References.CargoExchangeWorkbench.CargoExchangeWorkbenchSpeedupUpgradeDescription",
+      "field": "speedupDescription"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchAdditionalSlotUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchAdditionalSlotUpgradeDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "itemFunc"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchDescription",
+      "type": "System.Collections.Generic.IReadOnlyList`1<Models.References.CargoOpenWorkbench.CargoOpenWorkbenchAdditionalSlotUpgradeDescription>",
+      "field": "additionalSlotUpgrades"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchDescription",
+      "type": "System.Collections.Generic.IReadOnlyList`1<Models.References.CargoOpenWorkbench.CargoOpenWorkbenchSpeedupUpgradeSlotDescription>",
+      "field": "availableSpeedupUpgradeSlots"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchDescription",
+      "type": "Models.ReferencesProject.Descriptions.CargoOpenWorkbench.CargoOpenWorkbenchContext",
+      "field": "context"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "inventoryItemFunc"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "slotsCount"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchDescription",
+      "type": "Models.References.CargoOpenWorkbench.CargoWorkbenchTypeDescription",
+      "field": "workbenchType"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchSpeedupUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchSpeedupUpgradeDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "itemFunc"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchSpeedupUpgradeDescription",
+      "type": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchSpeedupUpgradeSlotTypeDescription",
+      "field": "slotType"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchSpeedupUpgradeDescription",
+      "type": "System.Single",
+      "field": "speedupPercent"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchSpeedupUpgradeSlotTypeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchUpgradeDescription",
+      "type": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchAdditionalSlotUpgradeDescription",
+      "field": "additionalSlotDescription"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchUpgradeDescription",
+      "type": "Models.References.CargoOpenWorkbench.CargoOpenWorkbenchSpeedupUpgradeDescription",
+      "field": "speedupDescription"
+    },
+    {
+      "kind": "Models.References.CargoOpenWorkbench.CargoWorkbenchTypeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchDescription",
+      "type": "System.Collections.Generic.IReadOnlyList`1<Models.References.CargoProductionWorkbench.CargoProductionWorkbenchResultWeightsUpgradeSlotDescription>",
+      "field": "availableResultWeightsUpgradeSlots"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchDescription",
+      "type": "Models.ReferencesProject.Descriptions.CargoProductionWorkbench.CargoProductionWorkbenchContext",
+      "field": "context"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "inventoryItemFunc"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "resultTickCount"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchDescription",
+      "type": "System.Int64",
+      "field": "resultTickDuration"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchResultWeightsUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchResultWeightsUpgradeDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "itemFunc"
+    },
+    {
+      "kind": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchResultWeightsUpgradeDescription",
+      "type": "Models.References.CargoProductionWorkbench.CargoProductionWorkbenchResultWeightsUpgradeSlotTypeDescription",
+      "field": "slotType"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "Models.References.Colliders.CollidersDescription",
+      "field": "colliders"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "System.Int32",
+      "field": "index"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "Models.References.Interact.InteractDescription",
+      "field": "interactDescription"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "System.Numerics.Vector3",
+      "field": "interactPoint"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "inventoryItemFunc"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "System.Numerics.Vector3",
+      "field": "lootSpawnPoint"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "System.Collections.Generic.IReadOnlyList`1<Models.MathUtils.OBB>",
+      "field": "obbs"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "System.Numerics.Vector3",
+      "field": "rewardInteractPoint"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableDescription",
+      "type": "System.Numerics.Vector3",
+      "field": "rewardPosition"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableUpgradeSlotDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.Collection.CollectionTableUpgradeSlotDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "itemFunc"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "Models.References.Colliders.CollidersDescription",
+      "field": "colliders"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "coolingSlotsCount"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "index"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "Models.References.Interact.InteractDescription",
+      "field": "interactDescription"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.Numerics.Vector3",
+      "field": "interactPoint"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "inventoryItemFunc"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.Collections.Generic.IReadOnlyList`1<Models.MathUtils.OBB>",
+      "field": "obbs"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.Numerics.Vector3",
+      "field": "spawnLootPoint"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "speedupSlotsCount"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchDescription",
+      "type": "System.Int32",
+      "field": "videoCardSlotsCount"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchEfficiencyUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchEfficiencyUpgradeDescription",
+      "type": "System.Int32",
+      "field": "index"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchEfficiencyUpgradeDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "itemFunc"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchEfficiencyUpgradeDescription",
+      "type": "System.Single",
+      "field": "resourceDecreaseModifier"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchSpeedupUpgradeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchSpeedupUpgradeDescription",
+      "type": "System.Int32",
+      "field": "index"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchSpeedupUpgradeDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "itemFunc"
+    },
+    {
+      "kind": "Models.References.CryptoFarm.CryptoWorkbenchSpeedupUpgradeDescription",
+      "type": "System.Single",
+      "field": "speedupModifier"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.Boolean",
+      "field": "allowToChangeCrouchState"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.Boolean",
+      "field": "canUseAutoRepeat"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.Boolean",
+      "field": "canUseInMove"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "Models.References.Character.BattleCharacterAnimatorStateDescription",
+      "field": "castSpecialCharacterAnimatorState"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.Int64",
+      "field": "castTime"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "Models.References.Character.BattleCharacterAnimatorLayerDescription",
+      "field": "characterAnimatorLayer"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "Models.References.Character.CharacterSpeed",
+      "field": "characterSpeed"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "Models.References.Inventory.HealItemDescription",
+      "field": "healItem"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.Boolean",
+      "field": "isInterruptByJumpInput"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.Boolean",
+      "field": "isNotFullHealthRequired"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "Models.References.Character.BattleCharacterAnimatorStateDescription",
+      "field": "postCastSpecialCharacterAnimatorState"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.Int64",
+      "field": "postCastTime"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "Models.References.Inventory.RestoreArmorDescription",
+      "field": "restoreArmor"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "System.Int64",
+      "field": "takeInTime"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "Models.References.TimeEffect.TimeEffectDescription",
+      "field": "timeEffect"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemDescription",
+      "type": "Models.References.Inventory.UsableItemTypeDescription",
+      "field": "type"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemTypeDescription",
+      "type": "System.Int64",
+      "field": "cooldown"
+    },
+    {
+      "kind": "Models.References.Inventory.UsableItemTypeDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.Roulette.RouletteChipDescription",
+      "type": "System.Int32",
+      "field": "denomination"
+    },
+    {
+      "kind": "Models.References.Roulette.RouletteChipDescription",
+      "type": "System.String",
+      "field": "id"
+    },
+    {
+      "kind": "Models.References.Roulette.RouletteChipDescription",
+      "type": "System.Func`1<Models.References.Inventory.InventoryItemDescription>",
+      "field": "itemFunc"
+    }
+  ],
+  "issues": [
+    {
+      "n": 506,
+      "details": null,
+      "field_path": "complete_access_chain"
+    },
+    {
+      "n": 271,
+      "details": null,
+      "field_path": "acquisition_source"
+    },
+    {
+      "n": 200,
+      "details": null,
+      "field_path": "specialized_reference_payloads_not_fully_decoded"
+    },
+    {
+      "n": 3,
+      "details": "decoder_1",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 3,
+      "details": "police_badge_1",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 2,
+      "details": "cargo_manifest_1_cumulative",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 2,
+      "details": "cargo_manifest_3_cumulative",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 2,
+      "details": "police_evidence_1",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 1,
+      "details": "roulette_chip_100",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 1,
+      "details": "poker_cards_5",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 1,
+      "details": "gun_grease_2",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 1,
+      "details": "vip_key_6",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 1,
+      "details": "garbage_1",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 1,
+      "details": "earrings_5",
+      "field_path": "audit.unknownDependencies"
+    },
+    {
+      "n": 1,
+      "details": "drm14_m2",
+      "field_path": "audit.unknownDependencies"
+    }
+  ],
+  "descriptions": [
+    {
+      "name": "Ноутбук PD STATION",
+      "game_id": "laptop_4",
+      "description": "Тяжелый, бронированный, зашифрованный. Можно продать, взломать не получится."
+    },
+    {
+      "name": "Бутылка Golden Jaguar",
+      "game_id": "alcohol_5",
+      "description": "Открывать жалко. В закрытом виде бутылка уйдет коллекционерам дороже."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_1",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>отеле Seasons</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_2",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>отеле Reef</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_3",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>стрип-клубе</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_4",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>минимаркете</color> на севере района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_5",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>аптеке</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_6",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>кафе</color> на пирсе района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_7",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>особняке</color> района <color=#{:palette(Target)}>Лорейн-Хиллз</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_8",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>минимаркете</color> в центре района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_9",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>минимаркете</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_10",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>аптеке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_11",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>кафе</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_12",
+      "description": "Открывает сейф на <color=#{:palette(Target)}>заправке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_13",
+      "description": "Открывает сейф в <color=#{:palette(Target)}>магазине электроники</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от сейфа",
+      "game_id": "safe_key_14",
+      "description": "Открывает сейф в одном из <color=#{:palette(Target)}>коттеджей</color> района <color=#{:palette(Target)}>Лорейн-Хиллз</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_1",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>оружейном магазине</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_2",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>магазине экипировки</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_3",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>оружейном магазине</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_4",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>магазине экипировки</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_5",
+      "description": "Открывает <color=#{:palette(Main)}>левую</color> скрытую комнату на <color=#{:palette(Target)}>заправке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_6",
+      "description": "Открывает <color=#{:palette(Main)}>правую</color> скрытую комнату на <color=#{:palette(Target)}>заправке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_7",
+      "description": "Открывает запертую комнату в одном из <color=#{:palette(Target)}>коттеджей</color> района <color=#{:palette(Target)}>Лорейн-Хиллз</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_8",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>аптеке</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_9",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>аптеке</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_10",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>минимаркете</color> района <color=#{:palette(Target)}>Даунтаун</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_11",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>минимаркете</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_12",
+      "description": "Открывает запертую комнату в одном из <color=#{:palette(Target)}>отелей</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ от комнаты",
+      "game_id": "room_key_13",
+      "description": "Открывает VIP комнату в <color=#{:palette(Target)}>стрип-клубе</color>."
+    },
+    {
+      "name": "Ключ-карта",
+      "game_id": "vip_key_1",
+      "description": "Открывает тайный склад <color=#{:palette(Target)}>гранд-отеля</color> района <color=#{:palette(Target)}>Санни-Бич</color>."
+    },
+    {
+      "name": "Ключ-карта",
+      "game_id": "vip_key_2",
+      "description": "Открывает запертую комнату в <color=#{:palette(Target)}>полицейском участке</color>."
+    },
+    {
+      "name": "Ключ-карта",
+      "game_id": "vip_key_3",
+      "description": "Открывает запертую комнату в одном из <color=#{:palette(Target)}>коттеджей</color> района <color=#{:palette(Target)}>Лорейн-Хиллз</color>."
+    },
+    {
+      "name": "Ключ-карта",
+      "game_id": "vip_key_6",
+      "description": "Открывает хранилище в <color=#{:palette(Target)}>галерее</color>."
+    },
+    {
+      "name": "Зажигалка RedOlive",
+      "game_id": "lighter_3",
+      "description": "Красная, броская. Легко потерять, легко найти нового владельца."
+    },
+    {
+      "name": "Тормозной диск",
+      "game_id": "car_suspension_1",
+      "description": "Повышает устойчивость и сцепление с дорогой. Установленная модификация <color=#{:palette(Main)}>не выпадает</color> при смерти."
+    },
+    {
+      "name": "Документ на поселение",
+      "game_id": "settlement_sale_1",
+      "description": "Позволяет купить <color=#{:palette(Main)}>поселение</color> в <color=#{:palette(Main)}>районе 1-го уровня</color>.\r\n\r\nВладелец может <color=#{:palette(Main)}>бесплатно заселиться</color> в нем, сдавать участки другим игрокам и получать налоги с их финансовых операций."
+    },
+    {
+      "name": "Документ на участок",
+      "game_id": "plot_sale_1",
+      "description": "Позволяет арендовать <color=#{:palette(Main)}>земельный участок</color> в поселении <color=#{:palette(Main)}>района 1-го уровня</color> и получить доступ к новым товарам.\n\nАрендовать участок можно только в поселении, у которого есть владелец."
+    },
+    {
+      "name": "Улики",
+      "game_id": "police_evidence_1",
+      "description": "Можно обменять в <color=#{:palette(Main)}>бартере</color> на ID-карту, открывающую <color=#{:palette(Target)}>арсенал</color> полицейского участка."
+    },
+    {
+      "name": "Кристаллический порошок",
+      "game_id": "lab_crystal_1",
+      "description": "Мелкие осколки плотного кристаллического материала, полученные после механического дробления."
+    },
+    {
+      "name": "Кристаллический порошок",
+      "game_id": "lab_crystal_2",
+      "description": "Мелкие осколки плотного кристаллического материала, полученные после механического дробления."
+    },
+    {
+      "name": "Кристаллический порошок",
+      "game_id": "lab_crystal_3",
+      "description": "Мелкие осколки плотного кристаллического материала, полученные после механического дробления."
+    }
+  ]
+}

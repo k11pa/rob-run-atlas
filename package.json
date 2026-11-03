@@ -1,6 +1,6 @@
 {
   "name": "rob-run-loot-atlas",
-  "version": "0.6.0",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node scripts/unpack-assets.mjs && node scripts/serve.mjs",
     "build": "node scripts/unpack-assets.mjs && node scripts/verify.mjs",
-    "check": "node --check dist/app.js && node --check dist/data.js && node scripts/verify.mjs",
-    "research:unpack": "node scripts/unpack-assets.mjs research"
+    "check": "node --check dist/app.js && node --check dist/data.js && node scripts/verify.mjs && node scripts/check-loot-probability.mjs",
+    "research:unpack": "node scripts/unpack-assets.mjs research",
+    "db:build": "node scripts/unpack-assets.mjs && node scripts/run-db-build.mjs && npm run check"
   }
 }
