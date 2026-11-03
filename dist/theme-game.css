@@ -158,3 +158,5 @@ select:focus,select:hover,.icon-button:focus{border-color:#2f2e2c!important}
 .locked-room .access-key img{width:34px;height:34px}
 .room-item small{font-weight:500;color:var(--muted);font-size:11px}
 .fill-list{grid-template-columns:1fr}.fill-list .room-item span{-webkit-line-clamp:unset;display:block}
+.loot-tile small{display:block;margin-top:4px;color:#ffc24a;font-weight:700;font-size:11px;line-height:1.25}
+.special-loot .route-steps{margin:10px 0 6px;padding-left:20px;color:var(--muted);font-size:13px}.special-loot .route-steps li{margin:6px 0}.special-loot .route-steps strong{color:var(--text,#f1efe9)}.special-loot .route-steps p{margin:2px 0 0}

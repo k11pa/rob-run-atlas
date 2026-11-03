@@ -172,12 +172,14 @@
   return `<div class="safe-checklist safe-plan"><span class="detail-label">ЧТО ВЗЯТЬ ЗА СЕЙФАМИ</span><p class="safe-plan-intro">${esc(lead)}</p><strong>${knownRoom?'За дверью: ':'В локации: '}${safeQuantity(count)}</strong><p class="safe-plan-instruction">${count===1?'Чтобы вскрыть большой сейф и забрать весь его лут, возьмите <b>1 мини-бур</b>.':`Чтобы вскрыть все ${count} больших сейфа и забрать весь их лут, возьмите <b>${count} мини-бура</b>.`}</p><div class="safe-loadout">${keys.map(id=>`<button data-item="${esc(id)}"><img src="${esc(itemById.get(id).icon)}" alt=""><span>${esc(entryItemLabel(id))}</span><b>× 1</b></button>`).join('')}${keys.length?'<span class="loadout-plus">+</span>':''}<button data-item="mini_drill_1"><img src="${esc(itemById.get('mini_drill_1').icon)}" alt=""><span>Мини-бур</span><b>× ${count}</b></button></div>${keys.length===1?'<p class="small-note">Ключ или инструмент у двери открывает доступ. Мини-буры нужны для самих больших сейфов.</p>':''}${knownRoom?'<span class="observation-note">Сейфы за дверью — по игровому опыту игрока.</span>':`<p class="small-note">Это общее количество больших сейфов в локации.${doors.length>1?' У входов разные требования; список ниже относится к разным закрытым зонам.':''}</p>`}</div>`;
  }
  // v3.2: locked rooms per location — what each key/keycard opens and what is inside (from game scene data)
- const roomObservations={PoliceStation:{vip_key_4:'По опыту игроков. В базе источник пулемёта пока не указан.'},Bank:{vip_key_5:'Эта дверь находится внутри хранилища, поэтому сначала нужен бур. Сейфов за ней нет, мини-буры не нужны.'}};
- const roomDoorFor={PoliceStation:'vip_key_2'}; // player-confirmed: safes and room loot are behind the key-card door
+ const roomObservations={PoliceStation:{vip_key_4:'Арсенал: оружейные стойки, гранаты и полицейские бронежилеты. Пулемёт LM 249 Mk2 указан по опыту игроков: что именно лежит на стойках, в данных игры не раскрыто.'},Bank:{vip_key_5:'Эта дверь находится внутри хранилища, поэтому сначала нужен бур. Сейфов за ней нет, мини-буры не нужны.'}};
+ const roomDoorFor={}; // player-confirmed: safes and room loot are behind the key-card door
  const roomExtraItems={PoliceStation:{vip_key_4:['lmg_m2']}};
  // Checked against scene coordinates: the vault door (bur) opens the vault with 3 bank safes, cash and 12 deposit cells;
  // the ID-card door inside the vault opens the gold room (z >= 405.5, x <= 338.5) with 7 gold bars and no safes.
- const roomZones={Bank:{member:p=>p.x>=327&&p.x<=343&&p.z>=396&&p.z<=411&&p.height>11&&p.height<14,door:p=>p.z>=405.5&&p.x<=338.5?'vip_key_5':'drill_1'}};
+ const roomZones={Bank:{member:p=>p.x>=327&&p.x<=343&&p.z>=396&&p.z<=411&&p.height>11&&p.height<14,door:p=>p.z>=405.5&&p.x<=338.5?'vip_key_5':'drill_1'},
+  // Police: the ID-card door (z 20.7) opens the arsenal (z > 20.7: weapon racks, grenades, police vests); in front of it is the key-card evidence room (3 safes, contraband, cash).
+  PoliceStation:{member:p=>p.x>=-62&&p.x<=-50&&p.z>=5&&p.z<=25.5&&(p.height||0)<3,door:p=>p.z>20.7?'vip_key_4':'vip_key_2'}};
  const fillPointValue=new Map();const fillDefs=[];
  for(const [inputId,a] of Object.entries(D.acquisition||{}))for(const f of a.fills||[]){if(!(f.actionPoints||[]).length)continue;fillDefs.push({inputId,f});for(const x of f.actionPoints)if(!fillPointValue.has(x.pointId))fillPointValue.set(x.pointId,{inputId,points:x.points});}
  function fillsHere(b,points){
@@ -190,7 +192,7 @@
   if(!rows.length)return '';
   return `<div class="info-block"><div class="detail-label">Заполняется здесь · ${rows.length}</div><p class="small-note">Очки, которые можно набрать в этой локации, если носить предмет с собой.</p><div class="room-items fill-list">${rows.join('')}</div></div>`;
  }
- function lockedRooms(b,points){
+ function computeRooms(b,points){
   const doors=points.filter(p=>p.cat==='access'&&p.requiredItems?.length);
   const tagged=points.filter(p=>p.cat!=='access'&&/_room|minidrill/i.test(p.sourcePath||''));
   let room=[];
@@ -202,6 +204,32 @@
   const zone=roomZones[b.key];if(zone)room=points.filter(p=>p.cat!=='access'&&zone.member(p));
   const near=p=>doors.reduce((best,d)=>{const dist=Math.hypot(p.x-d.x,p.z-d.z,(p.height||0)-(d.height||0));return !best||dist<best.dist?{d,dist}:best;},null)?.d;
   const byDoor=new Map(doors.map(d=>[d,[]]));const forced=roomDoorFor[b.key]&&doors.find(d=>d.requiredItems.includes(roomDoorFor[b.key]));room.forEach(p=>{const d=forced||(zone&&doors.find(x=>x.requiredItems.includes(zone.door(p))))||near(p);if(d)byDoor.get(d).push(p);});
+  return {doors,byDoor};
+ }
+ // Special loot that needs an item which is not a door key, from acquisition routes (e.g. the gallery exhibit needs a glass cutter).
+ function routesHere(b,points){
+  const ids=new Set(points.map(p=>p.id)),doorKeys=new Set(points.filter(p=>p.cat==='access').flatMap(p=>p.requiredItems||[])),out=[];
+  for(const [itemId,a] of Object.entries(D.acquisition||{}))for(const r of a.routes||[])if(ids.has(r.gatePointId)||r.steps?.some(s=>ids.has(s.pointId)))out.push({itemId,r,special:r.requiredItems.some(id=>!doorKeys.has(id))});
+  return out;
+ }
+ // What a top-loot item needs in this location: a route requirement, or the door key if every source of it here is behind a locked door.
+ function lootNeeds(id,b,points,rooms){
+  const short=k=>{const i=itemById.get(k);return i?i.name.split(' · ')[0]:k;};
+  const route=routesHere(b,points).find(x=>x.itemId===id&&x.special);if(route)return 'Нужно: '+route.r.requiredItems.map(short).join(' + ');
+  const src=points.filter(p=>(p.loot||[]).some(e=>e.id===id));
+  const extraDoor=rooms.doors.find(d=>d.requiredItems.some(k=>((roomExtraItems[b.key]||{})[k]||[]).includes(id)));
+  if(!src.length)return extraDoor?'За дверью: '+short(extraDoor.requiredItems[0]):'';
+  const doorOf=p=>rooms.doors.find(d=>rooms.byDoor.get(d).includes(p));
+  const ds=[...new Set(src.map(doorOf))].sort((a,c)=>(c?.requiredItems[0]==='drill_1')-(a?.requiredItems[0]==='drill_1'));
+  return ds.length&&ds.every(Boolean)?'За дверью: '+ds.map(d=>short(d.requiredItems[0])).join(' · '):'';
+ }
+ function specialLoot(b,points){
+  const list=routesHere(b,points).filter(x=>x.special);if(!list.length)return '';
+  const keyButton=id=>{const i=itemById.get(id);if(!i)return '';const r=rarityById.get(i.rarity);return `<button class="access-key" data-item="${esc(id)}" style="--rare:${r.color}"><img src="${esc(i.icon)}" alt=""><span><strong>${esc(i.name)}</strong><small>${esc(r.name)} · как получить ↗</small></span></button>`;};
+  return `<section class="building-access special-loot"><div class="access-heading"><span class="eyebrow">ОСОБЫЙ ЛУТ</span><h3>Нужен специальный предмет</h3></div>${list.map(({itemId,r})=>{const i=itemById.get(itemId);return `<article class="locked-room"><p class="room-lead">Чтобы забрать ${esc(i.name)}</p>${r.requiredItems.map(keyButton).join('')}<ol class="route-steps">${r.steps.map(st=>`<li><strong>${esc(st.title)}</strong><p>${esc(st.text)}</p></li>`).join('')}</ol>${r.note?`<p class="observation-note">${esc(r.note)}</p>`:''}</article>`;}).join('')}</section>`;
+ }
+ function lockedRooms(b,points){
+  const {doors,byDoor}=computeRooms(b,points);
   const keyButton=id=>{const i=itemById.get(id);if(!i)return '';const r=rarityById.get(i.rarity);return `<button class="access-key" data-item="${esc(id)}" style="--rare:${r.color}"><img src="${esc(i.icon)}" alt=""><span><strong>${esc(i.name)}</strong><small>${esc(r.name)}</small></span></button>`;};
   const plural=(n,a,b,c)=>n%10===1&&n%100!==11?a:n%10>=2&&n%10<=4&&(n%100<10||n%100>=20)?b:c;
   const obs=roomObservations[b.key]||{};
@@ -230,9 +258,9 @@
   const b=buildingByKey.get(key);if(!b)return;state.selected=null;state.selectedBuilding=key;setMode('buildings',false);applyFilters();if(center)focusPoint(b,2.5);history.replaceState(null,'','#building='+encodeURIComponent(key));
   const points=D.points.filter(p=>p.buildingKey===key),types=Object.entries(C).map(([cat,c])=>{const n=points.filter(p=>p.cat===cat).length;return n?`<button class="building-type" data-building-category="${cat}" style="--cat:${c.color}"><span>${c.icon}</span>${c.name}<b>${n}</b></button>`:'';}).join('');
   const loot=new Map();points.forEach(p=>(p.loot||[]).forEach(e=>loot.set(e.id,e)));
-  const topLoot=[...new Set([...b.rewards,...loot.keys()])].filter(id=>itemById.has(id)).sort((x,y)=>(itemById.get(y).price||0)-(itemById.get(x).price||0)).slice(0,4);
+  const topLoot=[...new Set([...b.rewards,...loot.keys()])].filter(id=>itemById.has(id)).sort((x,y)=>(itemById.get(y).price||0)-(itemById.get(x).price||0)).slice(0,4);const rooms=computeRooms(b,points);
   const groups=new Map();points.filter(p=>p.group).forEach(p=>{if(!groups.has(p.name))groups.set(p.name,[]);groups.get(p.name).push(p);});
-  $('drawer').innerHTML=`<header class="drawer-header building-header"><span class="eyebrow">ЛОКАЦИЯ · ${esc(b.region)}</span><button class="icon-button" data-action="close" aria-label="Закрыть карточку">×</button><img class="building-portrait" src="${esc(b.icon)}" alt=""><h2>${esc(b.title)}</h2><div class="building-line">${esc(b.name!==b.title?b.name:b.region)}</div></header><div class="drawer-body"><div class="info-block"><p>${esc(b.description)}</p></div><div class="info-block"><div class="detail-label">Можно найти · ${topLoot.length}</div><div class="loot-grid">${topLoot.map(id=>itemTile(id)).join('')}</div></div>${fillsHere(b,points)}${lockedRooms(b,points)}${keyJourney()}</div><footer class="drawer-footer"><button class="secondary-button" data-action="share" aria-label="Скопировать ссылку на локацию" style="flex:1">Ссылка на локацию ↗</button></footer>`;
+  $('drawer').innerHTML=`<header class="drawer-header building-header"><span class="eyebrow">ЛОКАЦИЯ · ${esc(b.region)}</span><button class="icon-button" data-action="close" aria-label="Закрыть карточку">×</button><img class="building-portrait" src="${esc(b.icon)}" alt=""><h2>${esc(b.title)}</h2><div class="building-line">${esc(b.name!==b.title?b.name:b.region)}</div></header><div class="drawer-body"><div class="info-block"><p>${esc(b.description)}</p></div><div class="info-block"><div class="detail-label">Можно найти · ${topLoot.length}</div><div class="loot-grid">${topLoot.map(id=>itemTile(id,lootNeeds(id,b,points,rooms))).join('')}</div></div>${specialLoot(b,points)}${fillsHere(b,points)}${lockedRooms(b,points)}${keyJourney()}</div><footer class="drawer-footer"><button class="secondary-button" data-action="share" aria-label="Скопировать ссылку на локацию" style="flex:1">Ссылка на локацию ↗</button></footer>`;
   $('drawer').hidden=false;$('drawer').scrollTop=0;$('tooltip').hidden=true;requestDraw();
  }
  const itemTrail=[];
