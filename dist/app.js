@@ -88,8 +88,23 @@
    for(const l of D.hub.landmarks||[]){const x=l.px*scale+tx,y=l.py*scale+ty;ctx.save();ctx.font='500 11px "Roboto Condensed",sans-serif';ctx.textAlign='center';const tw=ctx.measureText(l.name).width;ctx.fillStyle='#1f1e1ddd';ctx.beginPath();ctx.roundRect(x-tw/2-8,y-12,tw+16,24,4);ctx.fill();ctx.fillStyle='#dfdedd';ctx.fillText(l.name,x,y+4);ctx.restore();}
    const shop=D.hub.shop,x=shop.px*scale+tx,y=shop.py*scale+ty;ctx.save();ctx.shadowColor='#17161580';ctx.shadowBlur=12;ctx.beginPath();ctx.arc(x,y,26,0,Math.PI*2);ctx.fillStyle='#c6f432';ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle='#292826';ctx.lineWidth=3;ctx.stroke();const img=asset(shop.icon);if(img)ctx.drawImage(img,x-19,y-19,38,38);ctx.fillStyle='#1f1e1dee';ctx.font='600 12px "Roboto Condensed",sans-serif';ctx.textAlign='center';ctx.beginPath();ctx.roundRect(x-65,y+34,130,25,5);ctx.fill();ctx.fillStyle='#e4ff9a';ctx.fillText('Секретная дверь',x,y+51);ctx.restore();state.drawn.push({x,y,r:28,shop,pts:[]});return;
   }
-  for(const b of state.filteredBuildings){const x=b.px*scale+tx,y=b.py*scale+ty;if(x<-40||y<-40||x>w+40||y>h+40)continue;const selected=state.selectedBuilding===b.key;ctx.save();ctx.shadowColor='#24222155';ctx.shadowBlur=8;ctx.shadowOffsetY=2;ctx.beginPath();ctx.arc(x,y,20,0,Math.PI*2);ctx.fillStyle=selected?'#d7ff5e':'#f8f3e4ee';ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle=selected?'#1f1e1d':'#2c2b2955';ctx.lineWidth=selected?3:1;ctx.stroke();const img=asset(b.icon);if(img){const ratio=Math.min(36/img.naturalWidth,36/img.naturalHeight);ctx.drawImage(img,x-img.naturalWidth*ratio/2,y-img.naturalHeight*ratio/2,img.naturalWidth*ratio,img.naturalHeight*ratio);}ctx.restore();state.drawn.push({x,y,r:22,building:b,pts:[]});
-   if(state.labels||state.zoom>1.7||selected){const label=b.name;ctx.save();ctx.font='600 10px "Roboto Condensed",sans-serif';ctx.textAlign='center';const tw=ctx.measureText(label).width;ctx.fillStyle='#1f1e1dee';ctx.beginPath();ctx.roundRect(x-tw/2-6,y+25,tw+12,19,4);ctx.fill();ctx.fillStyle='#eeedec';ctx.fillText(label,x,y+38);ctx.restore();}
+  { // v3.2: zoom-scaled building icons with overlap avoidance and label decluttering
+   const R=Math.max(15,Math.min(20,15+4*(state.zoom-1))),gap=4,items=[];
+   for(const b of state.filteredBuildings){const x0=b.px*scale+tx,y0=b.py*scale+ty;if(x0<-60||y0<-60||x0>w+60||y0>h+60)continue;items.push({b,x0,y0,x:x0,y:y0});}
+   for(let it=0;it<40;it++){let moved=false;for(let i=0;i<items.length;i++)for(let j=i+1;j<items.length;j++){const p=items[i],q=items[j];let dx=q.x-p.x,dy=q.y-p.y,d=Math.hypot(dx,dy);const need=2*R+gap;if(d<need){if(d<.01){dx=1;dy=0;d=1;}const push=(need-d)/2;dx/=d;dy/=d;p.x-=dx*push;p.y-=dy*push;q.x+=dx*push;q.y+=dy*push;moved=true;}}if(!moved)break;}
+   const boxes=items.map(o=>({x1:o.x-R,y1:o.y-R,x2:o.x+R,y2:o.y+R}));
+   for(const o of items){const {b,x,y}=o,selected=state.selectedBuilding===b.key;
+    if(Math.hypot(x-o.x0,y-o.y0)>3){ctx.save();ctx.strokeStyle='#1f1e1d99';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(o.x0,o.y0);ctx.lineTo(x,y);ctx.stroke();ctx.beginPath();ctx.arc(o.x0,o.y0,2.5,0,Math.PI*2);ctx.fillStyle='#1f1e1d';ctx.fill();ctx.restore();}
+    ctx.save();ctx.shadowColor='#24222155';ctx.shadowBlur=8;ctx.shadowOffsetY=2;ctx.beginPath();ctx.arc(x,y,R,0,Math.PI*2);ctx.fillStyle=selected?'#d7ff5e':'#f8f3e4ee';ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle=selected?'#1f1e1d':'#2c2b2955';ctx.lineWidth=selected?3:1;ctx.stroke();const img=asset(b.icon);if(img){const s2=R*1.8,ratio=Math.min(s2/img.naturalWidth,s2/img.naturalHeight);ctx.drawImage(img,x-img.naturalWidth*ratio/2,y-img.naturalHeight*ratio/2,img.naturalWidth*ratio,img.naturalHeight*ratio);}ctx.restore();state.drawn.push({x,y,r:R+2,building:b,pts:[]});}
+   const labels=[];
+   const order=items.slice().sort((p,q)=>(state.selectedBuilding===q.b.key)-(state.selectedBuilding===p.b.key));
+   for(const o of order){const {b,x,y}=o,selected=state.selectedBuilding===b.key;if(!(state.labels||state.zoom>1.7||selected))continue;
+    ctx.save();ctx.font='600 10px "Roboto Condensed",sans-serif';const tw=ctx.measureText(b.name).width;ctx.restore();
+    const lw=tw+12,lh=19,cands=[[x-lw/2,y+R+5],[x-lw/2,y-R-5-lh],[x+R+5,y-lh/2],[x-R-5-lw,y-lh/2],[x-lw/2,y+R+28],[x-lw/2,y-R-28-lh],[x+R+5,y+R],[x-R-5-lw,y+R],[x+R+5,y-R-lh],[x-R-5-lw,y-R-lh]];
+    const fits=r=>![...labels,...boxes].some(q=>!(r.x2<q.x1||r.x1>q.x2||r.y2<q.y1||r.y1>q.y2));
+    let r=null;for(const [lx,ly] of cands){const c={x1:lx,y1:ly,x2:lx+lw,y2:ly+lh};if(fits(c)){r=c;break;}}
+    if(!r){const [lx,ly]=cands[0];r={x1:lx,y1:ly,x2:lx+lw,y2:ly+lh};}labels.push(r);
+    ctx.save();ctx.font='600 10px "Roboto Condensed",sans-serif';ctx.textAlign='center';ctx.fillStyle='#1f1e1dee';ctx.beginPath();ctx.roundRect(r.x1,r.y1,r.x2-r.x1,19,4);ctx.fill();ctx.fillStyle='#eeedec';ctx.fillText(b.name,(r.x1+r.x2)/2,r.y1+13);ctx.restore();}
   }
   for(const shop of D.shops||[]){const x=shop.px*scale+tx,y=shop.py*scale+ty;if(x<-30||y<-30||x>w+30||y>h+30)continue;ctx.save();ctx.beginPath();ctx.arc(x,y,21,0,Math.PI*2);ctx.fillStyle='#c6f432';ctx.fill();const img=asset(shop.icon);if(img)ctx.drawImage(img,x-17,y-17,34,34);ctx.restore();state.drawn.push({x,y,r:24,shop,pts:[]});}
  }
@@ -156,6 +171,39 @@
   const lead=keys.length===1?`Если вы нашли ${first==='drill_1'?'бур для двери хранилища':first.startsWith('vip_key_')?keyName.toLocaleLowerCase('ru').replace(/карта$/,'карту'):key.rarityName==='Legendary'?'легендарный ключ':'ключ от комнаты'}, откройте ею закрытую зону в этой локации.`:doors.length?'Для закрытых зон здесь используются разные ключи и инструменты. Назначение каждого показано ниже.':'Подготовьтесь к обыску больших сейфов.';
   return `<div class="safe-checklist safe-plan"><span class="detail-label">ЧТО ВЗЯТЬ ЗА СЕЙФАМИ</span><p class="safe-plan-intro">${esc(lead)}</p><strong>${knownRoom?'За дверью: ':'В локации: '}${safeQuantity(count)}</strong><p class="safe-plan-instruction">${count===1?'Чтобы вскрыть большой сейф и забрать весь его лут, возьмите <b>1 мини-бур</b>.':`Чтобы вскрыть все ${count} больших сейфа и забрать весь их лут, возьмите <b>${count} мини-бура</b>.`}</p><div class="safe-loadout">${keys.map(id=>`<button data-item="${esc(id)}"><img src="${esc(itemById.get(id).icon)}" alt=""><span>${esc(entryItemLabel(id))}</span><b>× 1</b></button>`).join('')}${keys.length?'<span class="loadout-plus">+</span>':''}<button data-item="mini_drill_1"><img src="${esc(itemById.get('mini_drill_1').icon)}" alt=""><span>Мини-бур</span><b>× ${count}</b></button></div>${keys.length===1?'<p class="small-note">Ключ или инструмент у двери открывает доступ. Мини-буры нужны для самих больших сейфов.</p>':''}${knownRoom?'<span class="observation-note">Сейфы за дверью — по игровому опыту игрока.</span>':`<p class="small-note">Это общее количество больших сейфов в локации.${doors.length>1?' У входов разные требования; список ниже относится к разным закрытым зонам.':''}</p>`}</div>`;
  }
+ // v3.2: locked rooms per location — what each key/keycard opens and what is inside (from game scene data)
+ const roomObservations={PoliceStation:{vip_key_4:'По опыту игроков. В базе источник пулемёта пока не указан.'}};
+ const roomDoorFor={PoliceStation:'vip_key_2'}; // player-confirmed: safes and room loot are behind the key-card door
+ const roomExtraItems={PoliceStation:{vip_key_4:['lmg_m2']}};
+ function lockedRooms(b,points){
+  const doors=points.filter(p=>p.cat==='access'&&p.requiredItems?.length);
+  const tagged=points.filter(p=>p.cat!=='access'&&/_room|minidrill/i.test(p.sourcePath||''));
+  let room=[];
+  if(doors.length&&tagged.length){
+   const xs=tagged.map(p=>p.x),zs=tagged.map(p=>p.z),hs=tagged.map(p=>p.height||0),m=1;
+   const inBox=p=>p.x>=Math.min(...xs)-m&&p.x<=Math.max(...xs)+m&&p.z>=Math.min(...zs)-m&&p.z<=Math.max(...zs)+m&&(p.height||0)>=Math.min(...hs)-1&&(p.height||0)<=Math.max(...hs)+1;
+   room=points.filter(p=>p.cat!=='access'&&p.cat!=='actions'&&(tagged.includes(p)||inBox(p)));
+  }
+  const near=p=>doors.reduce((best,d)=>{const dist=Math.hypot(p.x-d.x,p.z-d.z,(p.height||0)-(d.height||0));return !best||dist<best.dist?{d,dist}:best;},null)?.d;
+  const byDoor=new Map(doors.map(d=>[d,[]]));const forced=roomDoorFor[b.key]&&doors.find(d=>d.requiredItems.includes(roomDoorFor[b.key]));room.forEach(p=>{const d=forced||near(p);if(d)byDoor.get(d).push(p);});
+  const keyButton=id=>{const i=itemById.get(id);if(!i)return '';const r=rarityById.get(i.rarity);return `<button class="access-key" data-item="${esc(id)}" style="--rare:${r.color}"><img src="${esc(i.icon)}" alt=""><span><strong>${esc(i.name)}</strong><small>${esc(r.name)}</small></span></button>`;};
+  const plural=(n,a,b,c)=>n%10===1&&n%100!==11?a:n%10>=2&&n%10<=4&&(n%100<10||n%100>=20)?b:c;
+  const obs=roomObservations[b.key]||{};
+  const rooms=doors.map(d=>{
+   const pts=byDoor.get(d),safes=pts.filter(p=>p.drillAllowed).length,cup=pts.filter(p=>p.cat==='containers'&&!p.drillAllowed&&!p.requiredItems?.length).length;
+   const extra=d.requiredItems.flatMap(id=>(roomExtraItems[b.key]||{})[id]||[]);const ids=[...new Set([...extra,...pts.flatMap(p=>(p.loot||[]).map(e=>e.id))])].filter(id=>itemById.has(id)).sort((x,y)=>(itemById.get(y).price||0)-(itemById.get(x).price||0));
+   const chips=[...new Set(pts.filter(p=>p.cat==='random').map(p=>p.name))];
+   const key=d.requiredItems[0],isCard=key.startsWith('vip_key_'),isDrill=key==='drill_1';
+   const parts=[];if(safes)parts.push(`<b>${safes} ${plural(safes,'большой сейф','больших сейфа','больших сейфов')}</b> — возьмите <b>${safes} ${plural(safes,'мини-бур','мини-бура','мини-буров')}</b>`);if(cup)parts.push(`${cup} ${plural(cup,'шкаф','шкафа','шкафов')}`);
+   const cardName=isCard?(itemById.get(key)?.name||'ключ-карта').split(' · ')[0].replace(/карта$/i,'карту'):'';const lead=isDrill?'Если у вас есть бур для двери хранилища':isCard?'Если вы нашли '+(cardName.startsWith('ID')?cardName:cardName.toLocaleLowerCase('ru')):'Если вы нашли ключ от комнаты';
+   const note=d.requiredItems.map(id=>obs[id]).filter(Boolean).join(' ');
+   const empty=!parts.length&&!ids.length&&!chips.length;
+   return `<article class="locked-room"><p class="room-lead">${lead}</p>${d.requiredItems.map(keyButton).join('')}${parts.length?`<p class="room-line">За дверью: ${parts.join('; ')}.</p>`:''}${safes&&itemById.has('mini_drill_1')?(()=>{const i=itemById.get('mini_drill_1'),r=rarityById.get(i.rarity);return `<div class="room-items"><button class="room-item" data-item="mini_drill_1" style="--rare:${r.color}" title="${esc(i.name)} · ${esc(r.name)}"><img src="${esc(i.icon)}" alt=""><span>${esc(i.name)} × ${safes}</span></button></div>`;})():''}${ids.length||chips.length?`<div class="detail-label">Внутри можно найти</div>${ids.length?`<div class="room-items">${ids.slice(0,8).map(id=>{const i=itemById.get(id),r=rarityById.get(i.rarity);return `<button class="room-item" data-item="${esc(id)}" style="--rare:${r.color}" title="${esc(i.name)} · ${esc(r.name)}"><img src="${esc(i.icon)}" alt=""><span>${esc(i.name)}</span></button>`;}).join('')}</div>`:''}${chips.length?`<div class="room-chips">${chips.map(c=>`<span>${esc(c)}</span>`).join('')}</div>`:''}`:''}${empty&&!note?'<p class="small-note">Что за этой дверью, в данных игры не указано.</p>':''}${note?`<p class="observation-note">${esc(note)}</p>`:''}</article>`;
+  });
+  const small=points.filter(p=>p.cat==='containers'&&p.requiredItems?.length&&!p.drillAllowed).map(p=>`<article class="locked-room"><p class="room-lead">Если вы нашли ключ от малого сейфа</p>${p.requiredItems.map(keyButton).join('')}<p class="room-line">Откройте им малый сейф в этой локации. Внутри может оказаться ключ от закрытой комнаты в другой локации.</p><p class="observation-note">По опыту игроков. Точный шанс неизвестен.</p></article>`);
+  if(!rooms.length&&!small.length)return '';
+  return `<section class="building-access"><div class="access-heading"><span class="eyebrow">ДОПОЛНИТЕЛЬНЫЙ ЛУТ</span><h3>Закрытые комнаты и сейфы</h3></div>${rooms.join('')}${small.join('')}</section>`;
+ }
  function buildingAccess(b,points){
   const locked=points.filter(p=>['access','containers'].includes(p.cat)&&p.requiredItems?.length),drillPoints=points.filter(p=>p.drillAllowed&&p.drillItem==='mini_drill_1');
   if(!locked.length&&!drillPoints.length)return '';
@@ -167,7 +215,7 @@
   const loot=new Map();points.forEach(p=>(p.loot||[]).forEach(e=>loot.set(e.id,e)));
   const topLoot=[...new Set([...b.rewards,...loot.keys()])].filter(id=>itemById.has(id)).sort((x,y)=>(itemById.get(y).price||0)-(itemById.get(x).price||0)).slice(0,4);
   const groups=new Map();points.filter(p=>p.group).forEach(p=>{if(!groups.has(p.name))groups.set(p.name,[]);groups.get(p.name).push(p);});
-  $('drawer').innerHTML=`<header class="drawer-header building-header"><span class="eyebrow">ЛОКАЦИЯ · ${esc(b.region)}</span><button class="icon-button" data-action="close" aria-label="Закрыть карточку">×</button><img class="building-portrait" src="${esc(b.icon)}" alt=""><h2>${esc(b.title)}</h2><div class="building-line">${esc(b.name!==b.title?b.name:b.region)}</div></header><div class="drawer-body"><div class="info-block"><p>${esc(b.description)}</p></div><div class="info-block"><div class="detail-label">Можно найти · ${topLoot.length}</div><div class="loot-grid">${topLoot.map(id=>itemTile(id)).join('')}</div></div>${keyJourney()}${buildingAccess(b,points)}</div><footer class="drawer-footer"><button class="secondary-button" data-action="share" aria-label="Скопировать ссылку на локацию" style="flex:1">Ссылка на локацию ↗</button></footer>`;
+  $('drawer').innerHTML=`<header class="drawer-header building-header"><span class="eyebrow">ЛОКАЦИЯ · ${esc(b.region)}</span><button class="icon-button" data-action="close" aria-label="Закрыть карточку">×</button><img class="building-portrait" src="${esc(b.icon)}" alt=""><h2>${esc(b.title)}</h2><div class="building-line">${esc(b.name!==b.title?b.name:b.region)}</div></header><div class="drawer-body"><div class="info-block"><p>${esc(b.description)}</p></div><div class="info-block"><div class="detail-label">Можно найти · ${topLoot.length}</div><div class="loot-grid">${topLoot.map(id=>itemTile(id)).join('')}</div></div>${lockedRooms(b,points)}${keyJourney()}</div><footer class="drawer-footer"><button class="secondary-button" data-action="share" aria-label="Скопировать ссылку на локацию" style="flex:1">Ссылка на локацию ↗</button></footer>`;
   $('drawer').hidden=false;$('drawer').scrollTop=0;$('tooltip').hidden=true;requestDraw();
  }
  const itemTrail=[];
@@ -297,3 +345,20 @@
 
 
 
+;(()=>{ // v3.1: sell-price tooltip floats above the item card instead of stretching it
+ const place=btn=>{const tip=btn.querySelector('.sell-info-tip');if(!tip)return;
+  tip.style.cssText='display:block;position:fixed;visibility:hidden;top:0;left:0';
+  const card=btn.closest('dialog')||btn.closest('.drawer')||document.body,c=card.getBoundingClientRect(),b=btn.getBoundingClientRect(),h=tip.offsetHeight,w=tip.offsetWidth,gap=10;
+  let top=c.top-h-gap,left=Math.min(Math.max(8,b.left-w/2+b.width/2),innerWidth-w-8);
+  if(top<8){ // not enough room above the card
+   if(c.right+gap+w<=innerWidth-8){left=c.right+gap;top=Math.min(Math.max(8,b.top+b.height/2-h/2),innerHeight-h-8);} // beside the card
+   else if(c.left-gap-w>=8){left=c.left-gap-w;top=Math.min(Math.max(8,b.top+b.height/2-h/2),innerHeight-h-8);}
+   else{top=b.top-h-gap;if(top<8)top=b.bottom+gap;} // narrow screen: right above the icon
+  }
+  tip.style.cssText=`display:block;position:fixed;top:${Math.round(top)}px;left:${Math.round(left)}px`;};
+ const hide=btn=>{const tip=btn.querySelector('.sell-info-tip');if(tip)tip.style.cssText='';};
+ document.addEventListener('mouseover',e=>{const b=e.target.closest('.sell-info');if(b)place(b);});
+ document.addEventListener('mouseout',e=>{const b=e.target.closest('.sell-info');if(b&&!b.contains(e.relatedTarget))hide(b);});
+ document.addEventListener('focusin',e=>{const b=e.target.closest('.sell-info');if(b)place(b);});
+ document.addEventListener('focusout',e=>{const b=e.target.closest('.sell-info');if(b)hide(b);});
+})();

@@ -134,3 +134,25 @@ select option{background:#1b1b1a}
 .search-box,#results,#emptyState{display:none!important}
 *:focus,*:focus-visible{outline:none!important;box-shadow:none}
 select:focus,select:hover,.icon-button:focus{border-color:#2f2e2c!important}
+/* v3.1: sell tooltip in game style, floats above the card */
+.sell-info-tip{z-index:1000;width:230px;background:#121211f7;border:0;border-left:3px solid var(--accent);box-shadow:0 12px 40px #000c;font:500 12px/1.4 var(--font);color:#d5d3ce}
+.sell-info-tip strong{font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;letter-spacing:.3px;font-size:13px}
+.sell-info:hover .sell-info-tip,.sell-info:focus .sell-info-tip{display:none}
+/* v3.2: locked rooms */
+.locked-room{background:#121211;border:1px solid #2b2a28;border-left:3px solid var(--accent);padding:14px;margin:0 0 12px;display:flex;flex-direction:column;gap:10px}
+.room-lead{margin:0;font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;font-size:14px;letter-spacing:.3px;color:var(--text)}
+.room-line{margin:0;font-size:13px;line-height:1.5;color:#d5d3ce}
+.room-line b{color:var(--text)}
+.locked-room .detail-label{margin:4px 0 0}
+.locked-room .loot-grid{margin:0}
+.room-chips{display:flex;flex-wrap:wrap;gap:6px}
+.room-chips span{background:#232322;border:1px solid #33322f;padding:5px 8px;font-size:11px;font-weight:600;color:#d5d3ce}
+.locked-room .access-key{margin:0}
+.locked-room .observation-note{margin:0}
+.room-items{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.room-item{display:flex;align-items:center;gap:8px;min-width:0;padding:5px 8px 5px 6px;background:#1c1c1b;border:1px solid #2b2a28;border-left:3px solid var(--rare,#77746f);text-align:left}
+.room-item:hover{background:#2a2927}
+.room-item img{width:28px;height:28px;object-fit:contain;flex-shrink:0}
+.room-item span{font-size:12px;font-weight:600;line-height:1.2;color:var(--text);overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.locked-room .access-key{padding:8px}
+.locked-room .access-key img{width:34px;height:34px}
